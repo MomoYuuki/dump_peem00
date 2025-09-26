@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oplus-config>
+	<oplus-feature name="oplus.software.vip_preload"/>
+	<oplus-feature name="oplus.software.parallel_preload"/>
+	<oplus-feature name="oplus.software.next_preload"/>
+	<oplus-feature name="oplus.software.sau_preload"/>
+	<oplus-feature name="oplus.software.quick_boot"/>
+	<oplus-feature name="oplus.software.oguard.enable"/>
+	<oplus-feature name="os.tool.midas"/>
+	<oplus-feature name="oplus.software.support_fluid_entry"/>
+	<oplus-feature name="oplus.software.fluid_replace_ntf"/>
+	<oplus-feature name="oplus.software.activity_start_manager"/>
+	<oplus-feature name="oplus.software.art_domestic_isolate"/>
+	<oplus-feature name="oplus.software.preload_app_restore"/>
+</oplus-config>
+<!-- Timestamp 2024-12-10T15:44:33 #285588 -->

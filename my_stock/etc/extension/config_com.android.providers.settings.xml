@@ -1,0 +1,11 @@
+<settings_provider_config>
+    <settings_item name="security_window" value="1" category="secure" />
+    <!-- Settings.Secure.BACKUP_TRANSPORT -->
+    <settings_item name="backup_transport" value="com.android.localtransport/.LocalTransport" category="secure" />
+    <!-- ColorSettings.System.TETHER_IPV6_FEATURE -->
+    <settings_item name="tether_ipv6_feature" value="0" category="system" />
+    <settings_item name="wifi_auto_change_access_point" value="1" category="global" />
+    <settings_item name="wifi_auto_change_network" value="1" category="global" />
+    <!-- Settings.Global.PACKAGE_VERIFIER_INCLUDE_ADB -->
+    <settings_item name="verifier_verify_adb_installs" value="0" category="global" />
+</settings_provider_config>

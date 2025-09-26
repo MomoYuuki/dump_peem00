@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<packages>
+	<default-grant-permissions package="com.coloros.weather.service">
+		<permission name="android.permission.ACCESS_FINE_LOCATION"/>
+	</default-grant-permissions>
+	<default-grant-permissions package="com.oplus.statistics.rom">
+		<permission name="android.permission.ACCESS_COARSE_LOCATION"/>
+		<permission name="android.permission.ACCESS_FINE_LOCATION"/>
+		<permission name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+	</default-grant-permissions>
+	<default-grant-permissions package="com.oplus.cast">
+		<permission name="android.permission.READ_EXTERNAL_STORAGE"/>
+		<permission name="android.permission.READ_MEDIA_IMAGES"/>
+		<permission name="android.permission.READ_MEDIA_AUDIO"/>
+		<permission name="android.permission.READ_MEDIA_VIDEO"/>
+	</default-grant-permissions>
+	<default-grant-permissions package="com.coloros.operationManual">
+		<permission name="android.permission.POST_NOTIFICATIONS"/>
+	</default-grant-permissions>
+	<default-grant-permissions package="com.oplus.vdc">
+		<permission name="android.permission.BLUETOOTH_CONNECT"/>
+		<permission name="android.permission.NEARBY_WIFI_DEVICES"/>
+		<permission name="android.permission.ACCESS_FINE_LOCATION"/>
+		<permission name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+		<permission name="android.permission.ACCESS_COARSE_LOCATION"/>
+	</default-grant-permissions>
+	<default-grant-permissions package="com.hetap.cloud" sha256-cert-digest="ABD92FAAB81EFF0F1B3216F52B289B67D04DC035CDF208288DC334842D376889">
+		<permission name="com.android.permission.GET_INSTALLED_APPS"/>
+		<permission name="android.permission.PACKAGE_USAGE_STATS"/>
+	</default-grant-permissions>
+	<default-grant-permissions package="com.oplus.games" sha256-cert-digest="B0A9BBFC05EEE5E7D0A2C97C030586E15BB3301152078F54473BB82DF6D8C818">
+		<permission name="android.permission.BLUETOOTH_CONNECT"/>
+	</default-grant-permissions>
+	<default-grant-permissions package="com.xifan.drama" sha256-cert-digest="D82F6B0A272295AEF23AC4BBD339346E54C3EC0F8BD975B9A5C8C7323D977B68">
+		<permission name="android.permission.POST_NOTIFICATIONS"/>
+	</default-grant-permissions>
+	<default-grant-permissions package="com.heytap.htms">
+		<permission name="android.permission.ACCESS_FINE_LOCATION"/>
+		<permission name="android.permission.ACCESS_COARSE_LOCATION"/>
+		<permission name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+		<permission name="android.permission.BLUETOOTH_CONNECT"/>
+		<permission name="android.permission.READ_PHONE_STATE"/>
+	</default-grant-permissions>
+	<default-grant-permissions package="com.oplus.metis">
+		<permission name="android.permission.BLUETOOTH_CONNECT"/>
+	</default-grant-permissions>
+	<default-grant-permissions package="com.coloros.assistantscreen">
+		<permission name="android.permission.READ_MEDIA_IMAGES"/>
+	</default-grant-permissions>
+	<default-grant-permissions package="com.oplus.dmp">
+		<permission name="android.permission.READ_CALENDAR"/>
+		<permission name="android.permission.POST_NOTIFICATIONS"/>
+	</default-grant-permissions>
+</packages>
+<!-- Timestamp 2024-12-09T09:49:26 #283725 -->

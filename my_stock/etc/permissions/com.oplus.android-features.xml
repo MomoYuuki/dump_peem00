@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+	<feature name="oplus.software.support_gp.brand_oppo"/>
+	<feature name="oplus.software.support_gp.region_domestic"/>
+	<feature name="oplus.software.support_gp.type_phone"/>
+	<feature name="oplus.software.support_gp.product_full"/>
+	<feature name="oplus.software.permission.direction_sensor"/>
+</permissions>
+<!-- Timestamp 2024-02-21T10:42:58 #90225 -->

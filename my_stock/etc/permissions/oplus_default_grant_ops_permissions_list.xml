@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<packages>
+	<default-grant-ops-permissions package="com.coloros.filemanager" sha256-cert-digest="64AAFAF1D5BC9155A9E417A849E4F8EDA1D0D1341667C28ED7C443C76F820B9A">
+		<permission name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+	</default-grant-ops-permissions>
+	<default-grant-ops-permissions package="andes.oplus.documentsreader" sha256-cert-digest="B0A9BBFC05EEE5E7D0A2C97C030586E15BB3301152078F54473BB82DF6D8C818">
+		<permission name="MANAGE_EXTERNAL_STORAGE"/>
+	</default-grant-ops-permissions>
+</packages>
+<!-- Timestamp 2024-12-06T17:43:25 #283483 -->

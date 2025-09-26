@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<app version="1.0">
+  <disable pkg="com.magiear.handsfree.assistant" priority="10"/>
+  <disable pkg="com.mediatek.voicecommand" priority="10"/>
+</app>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.upgradeguide.download_url" args="String:https://featureinfo-service-cn.allawntech.com"/>
+	<app_feature name="com.upgradeguide.recruit_url" args="String:https://ota-recruit.coloros.com"/>
+	<app_feature name="com.upgradeguide.smartcard_url" args="String:https://ota-card-cn.allawntech.com"/>
+	<app_feature name="com.oplus.upgradeguide.pubkey" args="String:MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApXYGXQpNL7gmMzzvajHaoZIHQQvBc2cOEhJc7/tsaO4sT0unoQnwQKfNQCuv7qC1Nu32eCLuewe9LSYhDXr9KSBWjOcCFXVXteLO9WCaAh5hwnUoP/5/Wz0jJwBA+yqs3AaGLA9wJ0+B2lB1vLE4FZNE7exUfwUc03fJxHG9nCLKjIZlrnAAHjRCd8mpnADwfkCEIPIGhnwq7pdkbamZcoZfZud1+fPsELviB9u447C6bKnTU4AaMcR9Y2/uI6TJUTcgyCp+ilgU0JxemrSIPFk3jbCbzamQ6Shkw/jDRzYoXpBRg/2QDkbq+j3ljInu0RHDfOeXf3VBfHSnQ66HCwIDAQAB"/>
+	<app_feature name="com.oplus.upgradeguide.pubkey_ver" args="String:1615879139745"/>
+	<app_feature name="oplus.software.alwaysalive.enable" args="boolean:true"/>
+	<app_feature name="os.tool.onetrace.thermal.ostats" args="boolean:true"/>
+	<app_feature name="os.tool.onetrace.thermal.detect" args="boolean:true"/>
+	<app_feature name="os.tool.onetrace.thermal.metric" args="boolean:true"/>
+	<app_feature name="os.tool.onetrace.performance.ottrace" args="boolean:true"/>
+	<app_feature name="com.oplus.ota.contributors_url" args="String:https://icontributor-service-cn.allawntech.com/contributor/home"/>
+	<app_feature name="com.oplus.ota.new_appointment_url" args="String:https://ota-recruit-cn.allawntech.com/recruit/url"/>
+	<app_feature name="com.oplus.ota.recruit_promote_url" args="String:https://ota-recruit-cn.allawntech.com"/>
+	<app_feature name="com.oplus.ota.enterprise_url" args="String:https://tobcustomize-api-cn.allawntech.com"/>
+	<app_feature name="com.oplus.ota.print_log" args="boolean:true"/>
+	<app_feature name="com.oplus.ota.pubkey" args="String:MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApXYGXQpNL7gmMzzvajHaoZIHQQvBc2cOEhJc7/tsaO4sT0unoQnwQKfNQCuv7qC1Nu32eCLuewe9LSYhDXr9KSBWjOcCFXVXteLO9WCaAh5hwnUoP/5/Wz0jJwBA+yqs3AaGLA9wJ0+B2lB1vLE4FZNE7exUfwUc03fJxHG9nCLKjIZlrnAAHjRCd8mpnADwfkCEIPIGhnwq7pdkbamZcoZfZud1+fPsELviB9u447C6bKnTU4AaMcR9Y2/uI6TJUTcgyCp+ilgU0JxemrSIPFk3jbCbzamQ6Shkw/jDRzYoXpBRg/2QDkbq+j3ljInu0RHDfOeXf3VBfHSnQ66HCwIDAQAB"/>
+	<app_feature name="com.oplus.ota.pubkey_ver" args="String:1615879139745"/>
+	<app_feature name="os.tool.onetrace.performance.ood" args="boolean:true"/>
+	<app_feature name="com.oplus.ota.component_update_url" args="String:https://component-ota-cn.allawntech.com"/>
+	<app_feature name="com.oplus.ota.feedback_activity_region_mark" args="String:CN"/>
+	<app_feature name="com.oplus.ota.compability_support" args="boolean:true"/>
+	<app_feature name="com.oplus.ota.brand" args="String:oppo"/>
+	<app_feature name="com.oplus.ota.questionnaire_support" args="boolean:true"/>
+	<app_feature name="com.oplus.ota.install_check_support" args="boolean:true"/>
+	<app_feature name="com.oplusos.deepthinker.datacloud.enable" args="boolean:true"/>
+	<app_feature name="com.oplusos.deepthinker.cn.enable" args="boolean:true"/>
+	<app_feature name="com.oplus.deepthinker.startup.defer.time" args="long:600000"/>
+	<app_feature name="com.android.settings.cn_version"/>
+	<app_feature name="com.android.settings.hardware_version.invisible"/>
+	<app_feature name="com.android.settings.auth_base_url" args="String:https://spk-service-cn.allawntech.com/"/>
+	<app_feature name="com.android.settings.auth_base_url_for_test" args="String:http://ispk.romtestbj.wanyol.com/"/>
+	<app_feature name="com.android.settings.miit_website" args="String:https://jwxkggfw.miit.gov.cn/zwfwggfwhlw/V/ECVLD?token=api2llsecret"/>
+	<app_feature name="com.android.settings.use_guide_normal_address" args="String:https://tips-h5.coloros.com/care/index?"/>
+	<app_feature name="com.android.settings.use_guide_oplus_community_url" args="String:oppocommunity://oppo.cn?url="/>
+	<app_feature name="com.oplus.uxdesign.icons.host" args="String:https://gui-server-cn.allawntech.com"/>
+	<app_feature name="com.oplus.uxdesign.language.host" args="String:https://lang-server-cn.allawntech.com"/>
+	<app_feature name="com.oplus.uxdesign.uxcolor.host" args="String:https://globalcolor-service-cn.allawntech.com"/>
+	<app_feature name="com.oplus.efficient.conference.pagelist" args="StringList:pageList">
+		<StringList name="pageList" args="{&quot;version&quot;:&quot;0001&quot;,&quot;content&quot;:[{&quot;packageName&quot;:&quot;com.alibaba.android.rimet&quot;,&quot;pageName&quot;:[&quot;com.alibaba.android.teleconf.mozi.activity.TeleVideoConfActivity&quot;,&quot;com.alibaba.android.gray.teleconf.mozi.activity.TeleVideoConfActivity&quot;,&quot;com.alibaba.android.teleconf.activities.TeleConfHomeV2Activity&quot;]},{&quot;packageName&quot;:&quot;com.tencent.wework&quot;,&quot;pageName&quot;:[&quot;com.tencent.wework.multitalk.controller.VoipCallActivity&quot;,&quot;com.tencent.wework.multitalk.controller.meeting.MeetingVideoFullScreen&quot;,&quot;com.tencent.wemeet.sdk.meeting.inmeeting.InMeetingActivity&quot;]},{&quot;packageName&quot;:&quot;com.tencent.wemeet.app&quot;,&quot;pageName&quot;:[&quot;com.tencent.wemeet.sdk.meeting.inmeeting.InMeetingActivity&quot;]},{&quot;packageName&quot;:&quot;us.zoom.videomeetings&quot;,&quot;pageName&quot;:[&quot;com.zipow.videobox.ConfActivityNormal&quot;,&quot;com.zipow.videobox.conference.ui.ZmFoldableConfActivity&quot;]},{&quot;packageName&quot;:&quot;com.tencent.mm&quot;,&quot;pageName&quot;:[&quot;com.tencent.mm.plugin.multitalk.ui.MultiTalkMainUI&quot;]},{&quot;packageName&quot;:&quot;com.ss.android.lark&quot;,&quot;pageName&quot;:[&quot;com.ss.android.vc.meeting.module.multi.ByteRTCMeetingActivityInstance&quot;]},{&quot;packageName&quot;:&quot;com.larksuite.meeting.cn&quot;,&quot;pageName&quot;:[&quot;com.ss.android.vc.meeting.module.multi.ByteRTCMeetingActivity&quot;]},{&quot;packageName&quot;:&quot;com.microsoft.teams&quot;,&quot;pageName&quot;:[&quot;com.microsoft.skype.teams.views.activities.InCallActivity&quot;]},{&quot;packageName&quot;:&quot;com.google.android.apps.meetings&quot;,&quot;pageName&quot;:[&quot;com.google.android.libraries.communications.conference.ui.callui.SingleCallActivity&quot;]}]}"/>
+	</app_feature>
+	<app_feature name="com.oplus.ocar.carfusion.enable" args="boolean:true"/>
+	<app_feature name="com.oplus.travelengine.shake.enable" args="int:1"/>
+	<app_feature name="com.oplus.dcs.data.url" args="String:https://dc-dragate-cn.heytapmobi.com"/>
+	<app_feature name="com.oplus.dcs.tech.url" args="String:https://obus-dctech-cn.heytapmobi.com"/>
+	<app_feature name="com.oplus.romupdate.pubkey" args="String:MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6iM84sJ+EAESXEqGC52JVDqPy/glHpLtHxYzkZeftwynUGQVZtter4+VHAAj6MkLk30l1owq0UP9WymRWLp7GssgM2KfKs1glC8pxZ7Z1iDXZMhqlsZWZMjQOTMXRjMomYGoeV31H1d5Ox698sHyAqR3p8zdWncb8RBSXUTo//AGX+LzKG1j4aBcB/a5sa2B0kLKyEf8APKxvXWJGDG0mzeZDPAvzeMH4Xse1/bbgqpuuddxTwjzN/cFNR8rlu9RfCYItiJ3MP2PKJj16Qq0X1xiMVcSqZmgnNt/DSmDSNwN612aUCz+cRLTvHlbMssVdoCAGBApyMMj/BFG3o9JyQIDAQAB"/>
+	<app_feature name="com.oplus.romupdate.is_log_print_limit" args="boolean:true"/>
+	<app_feature name="com.oplus.romupdate.pubkey_ver" args="String:1602488677852"/>
+	<app_feature name="com.oplus.romupdate.is_exp" args="boolean:false"/>
+	<app_feature name="com.oplusos.sau.url" args="String:https://sau-server-cn.allawntech.com/post/"/>
+	<app_feature name="com.oplus.romupdate.url" args="String:https://rus-service-cn.allawntech.com/post/"/>
+	<app_feature name="com.oplus.sau.pubkey" args="String:MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjizxuXIvt5pMrs/2A51prLZu56Y4pNE5k/GooDJbyk04r9IKoXmacTJtaaTPbq9Wn6Uncdnu4EROBq6EzTmlPIcLfxe3HFQlwHqPsCGiCmuIRFLXvG36cXWvOfkFgvSCZtT5kcudDTVUvC/c8hzomy5YjJy+bVC/gU/pIISC+Mw2n13spI2QuPMo+pQxZKhyDiXwd04vG6d1wmX9Zh/QNn3OYvz4AarFNt5/6T6nRQ0SEBPZiLCrarcQx6XjKaoYrx9IfdrzjDFrnvusgLJmSIQMy5j4jX+kPECcK2IP6e60NOQgyB1IyqTwoFz8C3pVLBgi45S+rfKSJnPFf2AbEQIDAQAB"/>
+	<app_feature name="com.oplus.sau.pubkey_ver" args="String:1621324525119"/>
+	<app_feature name="com.oplusos.sau.forbidSilent" args="boolean:false"/>
+	<app_feature name="com.oplusos.sau.showToast" args="boolean:false"/>
+	<app_feature name="com.oplusos.sau.popUpDialog" args="boolean:false"/>
+	<app_feature name="com.oplusos.sau.downloadByDialog" args="boolean:false"/>
+	<app_feature name="com.oplusos.sau.print_log" args="boolean:true"/>
+	<app_feature name="com.oplusos.sau.displayInDownloadDir" args="boolean:true"/>
+	<app_feature name="com.oplusos.sau.opex.pubkey_ver" args="String:1631001537253"/>
+	<app_feature name="com.oplusos.sau.opex.url" args="String:https://opex-service-cn.allawntech.com/"/>
+	<app_feature name="com.oplusos.sau.opex.pubkey" args="String:MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAr/B2JwdaZIQqVpx10R4Ro/ZjCLzssu3vIZCKNwDh4LMBkeHRjcjtaVPoPvvTKY74XlMg7fmRv0iQELnlFNtHjgg8YnmhZObUmpVdpHLhthRSBqpRKl2LhMgYtE/SELUKvzelw2byNcRnU9/PvbsADcgz7IUFAzOvvtxnbaOd9CAthvO+0BTSk3dnBt6CT4nScgr13BAn6RTJI0wV5DZMpLNsTEXiTcQT3ZX2LcT6bRN8yUmGuARjLh2VG7H1gSxjUUDsKcFmcJY/8zyB64nqvX4Gya86c2bVaEd+CsMsOEYISWdVrG+Rf6y3BaG1DZRQDh0GD1cwtvA+JtvEmqGkqwIDAQAB"/>
+	<app_feature name="com.oplus.ota.new_rlm_appointment_url" args="String:https://ota-recruit-cn.allawntech.com/recruit/url"/>
+	<app_feature name="os.carlink.carkey" args="boolean:true"/>
+	<app_feature name="os.carlink.carcontrol" args="boolean:true"/>
+	<app_feature name="os.carlink.ocar.xgui" args="boolean:true"/>
+	<app_feature name="com.oplus.ocar.drivemode.enable"/>
+	<app_feature name="com.oplus.wirelesssettings.vcomm_more_all" args="String:https://opdwz.cn/QRb2umy"/>
+	<app_feature name="oplus.software.alwaysalive.splash_opt.enable" args="boolean:true"/>
+	<app_feature name="com.oplus.ocar.improved.design.enable" args="boolean:true"/>
+	<app_feature name="com.oplus.ocar.ubiquitous" args="boolean:true"/>
+	<app_feature name="os.carlink.ccc.key_sharing" args="boolean:true"/>
+	<app_feature name="com.oplus.ocar.voipcall.enable" args="boolean:true"/>
+	<app_feature name="com.opus.systemui.disable_qs_list" args="String:weixinpay,osie,lris"/>
+	<app_feature name="com.oplus.globalcollect.enable" args="boolean:true"/>
+	<app_feature name="os.carlink.ccc.rke" args="boolean:true"/>
+	<app_feature name="com.oplus.ota.recruit_type_url" args="String:https://ota-recruit.coloros.com"/>
+	<app_feature name="com.android.settings.verify_name_url" args="String:http://euler-gateway.oppo.local"/>
+</extend_features>
+<!-- Timestamp 2024-05-07T16:15:21 #122060 -->
