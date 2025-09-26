@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <!-- indicate how what's new pages should be shown -->
+    <app_feature name="com.oplus.bootreg.new_feature" args="int:21"/>
+</extend_features>

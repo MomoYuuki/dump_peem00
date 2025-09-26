@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C), 2016-2021, OPLUS Mobile Comm Corp., Ltd
+  All rights reserved.
+
+  File: - sido-policy-config.xml
+  Description:
+  Xml file provide customize parameters for SiDO2.0 base on different scenario by policy
+  Version: 1.0
+  Date: 2022-04-24
+
+  Revision History:
+  XieGui      2022-04-24   1.0    Create this module
+-->
+<SidoPolicyConfig>
+    <!--version命名格式：年.日月； 修改xml或推送RUS必须增量更新version号-->
+    <Version> 2024.0510 </Version>
+
+    <!--XieGui@NETWORK.REG.2991082, 2022/04/26, create the policy-->
+    <Issue name = "lte_nr_pingpong">
+        <!--识别算法：60s内NR2L irat制式跳变次数>5；
+        action执行前置条件：LTE RSRP>-100dBm，SNR>3dB；
+        action回滚条件：sa backoff 2.0原生恢复逻辑-->
+        <CommonConfig policy_execute_max_count = "10" policy_execute_interval = "1800"/>
+        <Policy id = "1">
+            <DetectScene enable = "true" platform = "all" user_scenario = "deepsleep" exclude_user_scenario = "none" motion = "still" sub = "all" wifi = "all"/>
+            <DetectThresh count = "8" duration = "300" bar_time = "-1"/>
+            <Action api = "sa_backoff" execute_interval= "20" only_report_keylog = "false"/>
+            <ActionPreThresh lte_rsrp = "-106" lte_snr = "0"/>
+            <ActionRollbackThresh value = "none"/>
+        </Policy>
+        <Policy id = "2">
+            <DetectScene enable = "true" platform = "all" user_scenario = "wx_video_call" exclude_user_scenario = "none" motion = "still" sub = "dds" wifi = "false"/>
+            <DetectThresh count = "3" duration = "30" bar_time = "-1"/>
+            <Action api = "sa_backoff" execute_interval= "20" only_report_keylog = "false"/>
+            <ActionPreThresh lte_rsrp = "-100" lte_snr = "3"/>
+            <ActionRollbackThresh value = "none"/>
+        </Policy>
+        <Policy id = "3">
+            <DetectScene enable = "true" platform = "qcom" user_scenario = "all" exclude_user_scenario = "deepsleep,wx_video_call" motion = "still" sub = "all" wifi = "all"/>
+            <DetectThresh count = "6" duration = "120" bar_time = "-1"/>
+            <Action api = "sa_backoff" execute_interval= "20" only_report_keylog = "false"/>
+            <ActionPreThresh lte_rsrp = "-106" lte_snr = "3"/>
+            <ActionRollbackThresh value = "none"/>
+        </Policy>
+        <Policy id = "4">
+            <DetectScene enable = "true" platform = "mtk" user_scenario = "all" exclude_user_scenario = "deepsleep,wx_video_call" motion = "still" sub = "all" wifi = "all"/>
+            <DetectThresh count = "6" duration = "60" bar_time = "3600"/>
+            <Action api = "bar_cell,sa_backoff" execute_interval= "20,20" only_report_keylog = "false"/>
+            <ActionPreThresh lte_rsrp = "-100" lte_snr = "3"/>
+            <ActionRollbackThresh value = "none"/>
+        </Policy>
+    </Issue>
+
+</SidoPolicyConfig>

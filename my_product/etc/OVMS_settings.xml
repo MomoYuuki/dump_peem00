@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+    <threshold type="0">
+        <value>0.12F</value>
+    </threshold>
+    <threshold type="1">
+        <value>0.23F</value>
+    </threshold>
+    <threshold type="2">
+        <value>0.18F</value>
+    </threshold>
+    <!--思必驰模型支持的麦克数-->
+    <micnum>
+        <value>2</value>
+    </micnum>
+
+    <!---0:MTK- 1: Qcom-->
+    <soc>
+        <value>1</value>
+    </soc>
+
+    <!-- DSP model uuid -->
+    <model_uuid>
+        <value>7d5b82e9-e5c9-477e-afa4-60e68d30b462</value>
+    </model_uuid>
+
+    <!-- DSP vender uuid -->
+    <vender_uuid>
+        <value>68ac2d41-e861-11e4-95ed-0002a5d5c51c</value>
+    </vender_uuid>
+
+</settings>

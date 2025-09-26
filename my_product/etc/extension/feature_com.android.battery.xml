@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <!-- indicate if the device is support wireless reverse charging when wired-->
+    <app_feature name="oplus.power.wirelesschgwhenwired.support" />
+    <!-- indicate if the device is support wireless charging-->
+    <app_feature name="oplus.power.onwirelesscharger.support" />
+</extend_features>

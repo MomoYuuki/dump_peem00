@@ -1,0 +1,837 @@
+[
+    {
+        "filter_name": "oplus_adfr_config"
+    },
+    {
+        "version": 20240821
+    },
+    {
+        "sub_version": "feature_20240120_osync"
+    },
+    {
+        "feature_sa": "true"
+    },
+    {
+        "feature_hist": "true"
+    },
+    {
+        "feature_oti": "true"
+    },
+    {
+        "feature_lfv": "true"
+    },
+    {
+        "feature_toast": "true"
+    },
+    {
+        "feature_osync": "true"
+    },
+    {
+        "sa_backlight": true,
+        "sa_backlight_strategy": [
+            {
+                "fps": 120,
+                "list": [
+                    "50:120",
+                    "200:10",
+                    "400:5",
+                    "800:1"
+                ]
+            },
+            {
+                "fps": 60,
+                "list": [
+                    "800:30"
+                ]
+            }
+        ]
+    },
+    {
+        "game_list": [
+            {
+                "pkg_name": [
+                    "com.tencent.tmgp.sgame"
+                ],
+                "available": true,
+                "hist": true,
+                "hist_sampler_interval": 500,
+                "hist_low_gray_ratio": 0.5,
+                "hist_max_gray_ratio": 0.99,
+                "oti": true,
+                "oti_timeout": 500,
+                "tgpa": true,
+                "tgpa_scene_key": 4,
+                "tgpa_game_mode": [
+                    "40:0",
+                    "40:1",
+                    "40:15",
+                    "40:16"
+                ],
+                "tgpa_game_start": [
+                    "4:7"
+                ],
+                "tgpa_game_over": [
+                    "4:0",
+                    "4:1",
+                    "4:2",
+                    "4:3",
+                    "4:4",
+                    "44:16",
+                    "44:17"
+                ],
+                "tgpa_timeout": 4000,
+                "tgpa_valid_period": 120000,
+                "kfc": true,
+                "kfc_target": [
+                    60
+                ],
+                "kfc_jitter": [
+                    20
+                ],
+                "kfc_interval": 1000,
+                "backlight": true,
+                "backlight_low_value": 100,
+                "bk": true,
+                "bk_value": 100,
+                "backlight_strategy": [
+                    {
+                        "fps": 72,
+                        "list": [
+                            "200:51",
+                            "800:45"
+                        ]
+                    }
+                ],
+                "ltm": true,
+                "ltm_value": 128
+            },
+            {
+                "pkg_name": [
+                    "com.riotgames.league.wildrift",
+                    "com.riotgames.league.wildrifttw"
+                ],
+                "available": true,
+                "hist": true,
+                "hist_sampler_interval": 500,
+                "hist_low_gray_ratio": 0.75,
+                "hist_max_gray_ratio": 0.99,
+                "oti": true,
+                "oti_timeout": 300,
+                "tgpa": true,
+                "tgpa_scene_key": 4,
+                "tgpa_game_mode": [],
+                "tgpa_game_start": [
+                    "4:7"
+                ],
+                "tgpa_game_over": [
+                    "4:0",
+                    "4:1",
+                    "4:2",
+                    "4:3",
+                    "4:5"
+                ],
+                "tgpa_timeout": 4000,
+                "tgpa_valid_period": 120000,
+                "kfc": true,
+                "kfc_target": [
+                    60
+                ],
+                "kfc_jitter": [
+                    20
+                ],
+                "kfc_interval": 1000,
+                "backlight": true,
+                "backlight_low_value": 100,
+                "bk": true,
+                "bk_value": 100,
+                "backlight_strategy": [
+                    {
+                        "fps": 72,
+                        "list": [
+                            "200:51",
+                            "800:45"
+                        ]
+                    }
+                ],
+                "ltm": true,
+                "ltm_value": 128
+            },
+            {
+                "pkg_name": [
+                    "com.tencent.tmgp.supercell.brawlstars",
+                    "com.youzu.bs.nearme.gamecenter",
+                    "com.youzu.bs",
+                    "com.supercell.brawlstars"
+                ],
+                "available": false,
+                "hist": false,
+                "hist_sampler_interval": 500,
+                "hist_low_gray_ratio": 0.99,
+                "hist_max_gray_ratio": 0.99,
+                "oti": true,
+                "oti_timeout": 300,
+                "tgpa": false,
+                "tgpa_scene_key": 4,
+                "tgpa_game_mode": [],
+                "tgpa_game_start": [
+                    "4:7"
+                ],
+                "tgpa_game_over": [
+                    "4:0",
+                    "4:1",
+                    "4:2",
+                    "4:3",
+                    "4:4",
+                    "4:5",
+                    "4:110"
+                ],
+                "tgpa_timeout": 4000,
+                "tgpa_valid_period": 30000,
+                "kfc": true,
+                "kfc_target": [
+                    60
+                ],
+                "kfc_jitter": [
+                    20
+                ],
+                "kfc_interval": 1000,
+                "backlight": true,
+                "backlight_low_value": 100,
+                "bk": true,
+                "bk_value": 100,
+                "backlight_strategy": [
+                    {
+                        "fps": 72,
+                        "list": [
+                            "200:51",
+                            "800:45"
+                        ]
+                    }
+                ],
+                "ltm": true,
+                "ltm_value": 128
+            },
+            {
+                "pkg_name": [
+                    "com.tencent.tmgp.speedmobile",
+                    "com.tencent.qqspmi"
+                ],
+                "available": true,
+                "limit_sw_vsync": true,
+                "hist": false,
+                "hist_sampler_interval": 500,
+                "hist_low_gray_ratio": 0.25,
+                "hist_max_gray_ratio": 0.99,
+                "oti": true,
+                "oti_timeout": 300,
+                "tgpa": true,
+                "tgpa_scene_key": 4,
+                "tgpa_game_mode": [],
+                "tgpa_game_start": [
+                    "4:101",
+                    "4:7"
+                ],
+                "tgpa_game_over": [
+                    "4:0",
+                    "4:1",
+                    "4:2",
+                    "4:3",
+                    "4:4",
+                    "4:5"
+                ],
+                "tgpa_timeout": 4000,
+                "tgpa_valid_period": 30000,
+                "kfc": true,
+                "kfc_target": [
+                    60
+                ],
+                "kfc_jitter": [
+                    20
+                ],
+                "kfc_interval": 1000,
+                "backlight": true,
+                "backlight_low_value": 100,
+                "bk": true,
+                "bk_value": 100,
+                "backlight_strategy": [
+                    {
+                        "fps": 72,
+                        "list": [
+                            "200:51",
+                            "800:45"
+                        ]
+                    }
+                ],
+                "ltm": true,
+                "ltm_value": 128
+            },
+            {
+                "pkg_name": [
+                    "com.tencent.tmgp.cod",
+                    "com.garena.game.codm",
+                    "com.activision.callofduty.shooter"
+                ],
+                "available": true,
+                "hist": false,
+                "hist_sampler_interval": 500,
+                "hist_low_gray_ratio": 0.6,
+                "hist_max_gray_ratio": 0.99,
+                "oti": true,
+                "oti_timeout": 300,
+                "tgpa": true,
+                "tgpa_scene_key": 4,
+                "tgpa_game_mode": [],
+                "tgpa_game_start": [
+                    "4:7"
+                ],
+                "tgpa_game_over": [
+                    "4:0",
+                    "4:1",
+                    "4:2",
+                    "4:3",
+                    "4:4",
+                    "4:5",
+                    "4:110"
+                ],
+                "tgpa_timeout": 4000,
+                "tgpa_valid_period": 120000,
+                "kfc": true,
+                "kfc_target": [
+                    60
+                ],
+                "kfc_jitter": [
+                    20
+                ],
+                "kfc_interval": 1000,
+                "backlight": true,
+                "backlight_low_value": 150,
+                "bk": true,
+                "bk_value": 150,
+                "backlight_strategy": [
+                    {
+                        "fps": 72,
+                        "list": [
+                            "200:51",
+                            "800:45"
+                        ]
+                    }
+                ],
+                "ltm": true,
+                "ltm_value": 160
+            },
+            {
+                "pkg_name": [
+                    "com.tencent.tmgp.pubgmhd"
+                ],
+                "available": true,
+                "hist": false,
+                "hist_sampler_interval": 500,
+                "hist_low_gray_ratio": 0.24,
+                "hist_max_gray_ratio": 0.99,
+                "oti": true,
+                "oti_timeout": 300,
+                "tgpa": true,
+                "tgpa_scene_key": 4,
+                "tgpa_game_mode": [],
+                "tgpa_game_start": [
+                    "4:101"
+                ],
+                "tgpa_game_over": [
+                    "4:0",
+                    "4:1",
+                    "4:2",
+                    "4:3",
+                    "4:4",
+                    "4:5",
+                    "4:110",
+                    "4:111"
+                ],
+                "tgpa_timeout": 4000,
+                "tgpa_valid_period": 120000,
+                "kfc": true,
+                "kfc_target": [
+                    60
+                ],
+                "kfc_jitter": [
+                    20
+                ],
+                "kfc_interval": 1000,
+                "backlight": true,
+                "backlight_low_value": 150,
+                "bk": true,
+                "bk_value": 150,
+                "backlight_strategy": [
+                    {
+                        "fps": 72,
+                        "list": [
+                            "800:51"
+                        ]
+                    }
+                ],
+                "ltm": true,
+                "ltm_value": 192
+            },
+            {
+                "pkg_name": [
+                    "com.tencent.ig"
+                ],
+                "available": true,
+                "hist": false,
+                "hist_sampler_interval": 500,
+                "hist_low_gray_ratio": 0.4,
+                "hist_max_gray_ratio": 0.99,
+                "oti": true,
+                "oti_timeout": 300,
+                "tgpa": true,
+                "tgpa_scene_key": 4,
+                "tgpa_game_mode": [],
+                "tgpa_game_start": [
+                    "4:101"
+                ],
+                "tgpa_game_over": [
+                    "4:0",
+                    "4:1",
+                    "4:2",
+                    "4:3",
+                    "4:4",
+                    "4:5",
+                    "4:110",
+                    "4:111"
+                ],
+                "tgpa_timeout": 4000,
+                "tgpa_valid_period": 120000,
+                "kfc": true,
+                "kfc_target": [
+                    60
+                ],
+                "kfc_jitter": [
+                    20
+                ],
+                "kfc_interval": 1000,
+                "backlight": true,
+                "backlight_low_value": 150,
+                "bk": true,
+                "bk_value": 150,
+                "backlight_strategy": [
+                    {
+                        "fps": 72,
+                        "list": [
+                            "800:51"
+                        ]
+                    }
+                ],
+                "ltm": true,
+                "ltm_value": 192
+            },
+            {
+                "pkg_name": [
+                    "com.tencent.tmgp.cf"
+                ],
+                "available": false,
+                "hist": false,
+                "hist_sampler_interval": 500,
+                "hist_low_gray_ratio": 0.8,
+                "hist_max_gray_ratio": 0.8,
+                "oti": true,
+                "oti_timeout": 300,
+                "tgpa": true,
+                "tgpa_scene_key": 4,
+                "tgpa_game_mode": [],
+                "tgpa_game_start": [
+                    "4:7"
+                ],
+                "tgpa_game_over": [
+                    "4:0",
+                    "4:1",
+                    "4:2",
+                    "4:3",
+                    "4:4",
+                    "4:5"
+                ],
+                "tgpa_timeout": 4000,
+                "tgpa_valid_period": 120000,
+                "kfc": true,
+                "kfc_target": [
+                    60
+                ],
+                "kfc_jitter": [
+                    20
+                ],
+                "kfc_interval": 1000,
+                "backlight": true,
+                "backlight_low_value": 100,
+                "bk": true,
+                "bk_value": 100,
+                "ltm": true,
+                "ltm_value": 192
+            }
+        ]
+    },
+    {
+        "cover_list": [
+            "StatusBar",
+            "NavigationBar",
+            "ScreenDecorOverlay",
+            "ScreenDecorOverlayBottom",
+            "ScreenDecorOverlayExpand",
+            "ColorOSEdgeFloatBar",
+            "ColorOSEdgePanel",
+            "ColorSideGestureLeft",
+            "ColorSideGestureRight",
+            "GestureButtonRegion",
+            "PCB NO",
+            "oppo-game-sdk-buoy",
+            "Simple Banner Window",
+            "Notification Danmaku Window",
+            "Sprite",
+            "RotationLayer",
+            "com.coloros.screenshot",
+            "com.coloros.screenrecorder.FloatView",
+            "ColorVolumeDialogImpl",
+            "ColorOSZoomFloatHandleView",
+            "GameSpaceUIFloatBar",
+            "Toast",
+            "com.coloros.airview",
+            "com.coloros.airviewpanel",
+            "com.oppo.autotest.otestmonitor.floatwindow",
+            "AssistOverlayBottom",
+            "com.coloros.logkit",
+            "OplusOSEdgeFloatBar",
+            "OplusOSEdgePanel",
+            "com.oplus.logkit",
+            "com.oplus.screenshot",
+            "com.oplus.screenrecorder.FloatView",
+            "VolumeDialog",
+            "FloatWindow",
+            "FloatBar",
+            "FloatView",
+            "floatwindow",
+            "autotest",
+            "LongshotCapture",
+            "SideGesture",
+            "Wallpaper"
+        ]
+    },
+    {
+        "touch_idle": true,
+        "hw_enable": false,
+        "sw_whitelist_3rd": {
+            "com.smile.gifmaker": [30],
+            "com.ss.android.ugc.aweme": [30]
+        },
+        "adfr_enable": true,
+        "timeout": 3500,
+        "hw_brightness_limit": 200,
+        "hw_gray": true,
+        "hw_gray_threshold": 55,
+        "hw_gray_percent": 70,
+        "special_timeout": {
+            "com.tencent.mobileqq": 4000,
+            "com.android.contacts": 4000,
+            "com.coloros.gallery3d": 4000
+        },
+        "blacklist": [
+            "com.android.settings",
+            "com.android.mms",
+            "com.oplus.engineermode",
+            "com.antutu.ABenchMark",
+            "com.antutu.benchmark.full",
+            "com.ludashi.benchmark2",
+            "com.ludashi.benchmark",
+            "com.coloros.video",
+            "com.tencent.tvoem",
+            "com.tencent.qqlive",
+            "com.youku.phone",
+            "com.tencent.tmgp.speedmobile",
+            "com.tencent.af",
+            "com.netease.blqx.nearme.gamecenter",
+            "com.netease.lztg.nearme.gamecenter",
+            "com.pwrd.xxajh.nearme.gamecenter",
+            "com.netease.blqx",
+            "com.netease.lztg",
+            "com.tencent.ig",
+            "com.tencent.lolm",
+            "com.riotgames.league.wildrift",
+            "com.riotgames.internal.wildrift.trunk",
+            "com.riotgames.internal.wildrift.test",
+            "com.riotgames.league.wildriftvn",
+            "com.riotgames.league.wildrifttw",
+            "com.tencent.tmgp.sgame",
+            "com.tencent.tmgp.cf",
+            "com.tencent.tmgp.pubgmhd",
+            "com.tencent.tmgp.pubgm",
+            "com.pubg.krmobile",
+            "com.vng.pubgmobile",
+            "com.rekoo.pubgm",
+            "com.tencent.tmgp.projectg",
+            "com.tencent.igce",
+            "com.tencent.tmgp.sgamece",
+            "com.tencent.KiHan",
+            "com.tencent.tmgp.KiHan",
+            "com.netease.yokaikoya",
+            "com.miHoYo.enterprise.NGHSoD",
+            "com.miHoYo.bh3.nearme.gamecenter",
+            "com.miHoYo.Yuanshen",
+            "com.tencent.tmgp.eyou.ygwu",
+            "com.netease.yokaikoya.nearme.gamecenter",
+            "com.tencent.YiRen",
+            "com.netease.wptqz",
+            "com.netease.jddsaef",
+            "com.netease.jddsaef.nearme.gamecenter",
+            "com.tencent.tmgp.jddsaef",
+            "com.tencent.tmgp.yongyong.lztg",
+            "com.tencent.tmgp.eyou.blqx",
+            "com.pwrd.xxajh.laohu",
+            "com.tencent.tmgp.xxajh",
+            "com.tencent.tmgp.eyou.blqx",
+            "com.netease.moba.nearme.gamecenter",
+            "com.tencent.tmgp.kaopu.jzpaj",
+            "com.tencent.tmgp.kaopu.jzpaj",
+            "com.pwrd.xsmdl.laohu",
+            "com.xsmdl.nearme.gamecenter",
+            "com.tencent.tmgp.xsmdl",
+            "comcom.youzu.bs",
+            "com.youzu.bs.nearme.gamecenter",
+            "com.yingxiong.dftk.nearme.gamecenter",
+            "com.yunbu.rehtona.nearme.gamecenter",
+            "com.denachina.g13002010.denacn",
+            "com.denachina.g13002010.nearme.gamecenter",
+            "com.volvapps.ef5.x.nearme.gamecenter",
+            "com.tencent.tmgp.supercell.clashroyale",
+            "com.tencent.tmgp.dfm",
+            "com.tencent.gate",
+            "com.tencent.tmgp.codev",
+            "com.vgamecrty.projv",
+            "com.pwrd.persona5x.laohu",
+            "com.pwrd.persona5x",
+            "com.p5x.nearme.gamecenter",
+            "com.tencent.tmgp.cod",
+            "com.tencent.tmgp.gnyx",
+            "com.tencent.mf.uam",
+            "com.tencent.tmgp.ef5",
+            "com.tencent.tmgp.hqxy",
+            "com.netease.x19",
+            "com.tencent.tmgp.wdsj666",
+            "com.netease.mc.nearme.gamecenter",
+            "com.palmpi.hcollege.nearme.gamecenter",
+            "com.palmpi.hcollege.feiyu",
+            "com.tencent.tmgp.supercell.brawlstars",
+            "com.ztgame.bob",
+            "com.netease.hyxd.nearme.gamecenter",
+            "com.netease.dwrg.nearme.gamecenter",
+            "com.google.android.youtube",
+            "com.tencent.qqsports",
+            "com.netflix.mediaclient"
+        ]
+    },
+    {
+        "cvt": true
+    },
+    {
+        "frtc": true
+    },
+    {
+        "touch_frame_change": true,
+        "strategy": 2,
+        "frtc_capability": 120,
+        "whitelist": [
+            "com.tencent.mm",
+            "com.eg.android.AlipayGphone",
+            "com.taobao.taobao",
+            "com.ss.android.ugc.aweme",
+            "com.tencent.mobileqq",
+            "com.xunmeng.pinduoduo",
+            "com.jingdong.app.mall",
+            "com.autonavi.minimap",
+            "com.sankuai.meituan",
+            "tv.danmaku.bili",
+            "com.baidu.searchbox",
+            "com.tencent.mtt",
+            "com.netease.cloudmusic",
+            "com.smile.gifmaker",
+            "com.tencent.qqlive",
+            "com.sina.weibo",
+            "com.tencent.qqmusic",
+            "com.alibaba.android.rimet",
+            "com.xingin.xhs",
+            "com.UCMobile",
+            "com.kugou.android",
+            "com.qiyi.video",
+            "com.quark.browser",
+            "com.ss.android.ugc.aweme.lite",
+            "com.ss.android.article.news",
+            "com.kuaishou.nebula",
+            "com.taobao.idlefish",
+            "cn.wps.moffice_eng",
+            "com.youku.phone",
+            "com.zhihu.android",
+            "com.baidu.BaiduMap",
+            "me.ele",
+            "com.baidu.netdisk",
+            "com.dragon.read",
+            "com.cainiao.wireless",
+            "com.tmri.app.main",
+            "com.icbc",
+            "com.chinamworld.main",
+            "com.tencent.wework",
+            "com.shizhuang.duapp",
+            "com.tencent.androidqqmail",
+            "com.android.bankabc",
+            "com.ximalaya.ting.android",
+            "cmb.pb",
+            "com.dianping.v1",
+            "com.tencent.news",
+            "com.sankuai.meituan.takeoutnew",
+            "com.chinamworld.bocmbci",
+            "com.baidu.tieba",
+            "com.tencent.karaoke",
+            "com.sinovatech.unicom.ui",
+            "com.taobao.litetao",
+            "com.ss.android.auto",
+            "com.greenpoint.android.mc10086.activity",
+            "com.chaoxing.mobile",
+            "com.achievo.vipshop",
+            "com.tencent.android.qqdownloader",
+            "com.android.chrome",
+            "cn.xuexi.android",
+            "com.ss.android.article.video",
+            "com.hpbr.bosszhipin",
+            "com.tencent.qt.qtl",
+            "com.oneplus.bbs",
+            "com.alibaba.wireless",
+            "com.ss.android.article.lite",
+            "com.jd.jrapp",
+            "com.MobileTicket",
+            "com.wuba",
+            "com.hunantv.imgo.activity",
+            "com.kmxs.reader",
+            "cn.wps.moffice.lite",
+            "com.youdao.dict",
+            "cn.soulapp.android",
+            "com.cubic.autohome",
+            "com.tencent.gamehelper.smoba",
+            "com.gotokeep.keep",
+            "com.mihoyo.hyperion",
+            "com.tmall.wireless",
+            "ctrip.android.view",
+            "com.xiaomi.smarthome",
+            "com.baidu.homework",
+            "com.cmbchina.ccd.pluto.cmbActivity",
+            "com.yitong.mbank.psbc",
+            "com.twitter.android",
+            "com.lingan.seeyou",
+            "com.tencent.weishi",
+            "com.baidu.searchbox.lite",
+            "com.qidian.QDReader",
+            "com.hexin.plat.android",
+            "com.pingan.paces.ccms",
+            "com.hupu.shihuo",
+            "com.immomo.momo",
+            "com.anjuke.android.app",
+            "com.sup.android.superb",
+            "com.bankcomm.Bankcomm",
+            "cn.kuwo.player",
+            "com.xs.fm",
+            "cn.xiaochuankeji.tieba",
+            "com.yek.android.kfc.activitys",
+            "com.tencent.weread",
+            "com.douban.frodo",
+            "com.taobao.live",
+            "com.lianjia.beike",
+            "com.pingan.carowner",
+            "com.wuba.zhuanzhuan",
+            "com.zhaopin.social",
+            "com.netease.mail",
+            "net.evecom.android.mztapp",
+            "com.max.xiaoheihe",
+            "com.sgcc.wsgw.cn",
+            "com.iflytek.oshall.ahzwfw",
+            "com.eastmoney.android.berlin",
+            "com.ss.android.ugc.live",
+            "com.wisedu.cpdaily",
+            "com.xiachufang",
+            "com.p1.mobile.putong",
+            "com.netease.gl",
+            "com.ccb.longjiLife",
+            "com.sf.activity",
+            "com.able.wisdomtree",
+            "com.hupu.games",
+            "com.xuexiaoyi.xxy",
+            "com.baidu.wenku",
+            "com.handsgo.jiakao.android",
+            "com.wudaokou.hippo",
+            "com.fenbi.android.solar",
+            "com.bilibili.comic",
+            "com.tencent.gamehelper.pg",
+            "com.kuaikan.comic",
+            "com.coolapk.market",
+            "com.taobao.trip",
+            "cn.com.spdb.mobilebank.per",
+            "org.telegram.messenger",
+            "com.mcdonalds.gma.cn",
+            "com.jiongji.andriod.card",
+            "com.ecitic.bank.mobile",
+            "com.qq.reader",
+            "com.jdd.motorfans",
+            "com.chaozh.iReader.dj",
+            "com.ss.android.lark",
+            "com.netease.mobimail",
+            "com.yaya.zone",
+            "com.qq.ac.android",
+            "com.shuqi.controller",
+            "com.pupumall.customer",
+            "com.jjwxc.reader",
+            "com.taou.maimai",
+            "com.netease.newsreader.activity",
+            "com.chaozh.iReaderFree",
+            "com.sina.news",
+            "com.heytap.market",
+            "com.android.settings",
+            "com.finshell.wallet",
+            "com.coloros.weather2",
+            "com.heytap.quicksearchbox",
+            "com.heytap.speechassist",
+            "com.heytap.pictorial",
+            "com.coloros.note",
+            "com.heytap.instant.platform",
+            "com.android.systemui",
+            "com.coloros.phonemanager",
+            "com.coloros.filemanager",
+            "com.heytap.themestore",
+            "com.heytap.yoli",
+            "com.nearme.gamecenter",
+            "com.coloros.assistantscreen",
+            "com.oppo.store",
+            "com.android.captiveportallogin",
+            "com.heytap.cloud",
+            "com.heytap.health",
+            "com.coloros.soundrecorder",
+            "com.heytap.music",
+            "com.heytap.reader",
+            "com.android.nfc",
+            "com.coloros.ocrscanner",
+            "com.coloros.backuprestore",
+            "com.coloros.video",
+            "com.android.vpndialogs",
+            "com.coloros.wirelesssettings",
+            "com.android.stk",
+            "com.android.email",
+            "com.android.wallpaper.livepicker",
+            "com.heytap.smarthome",
+            "com.coloros.findmyphone",
+            "com.coloros.shortcuts",
+            "com.coloros.familyguard",
+            "com.coloros.colordirectservice",
+            "com.coloros.operationManual",
+            "com.coloros.safecenter",
+            "com.redteamobile.roaming"
+        ],
+        "blacklist": [
+        ],
+        "min_framerate_map": {
+            "tv.danmaku.bili": 60,
+            "com.coloros.gallery3d": 60,
+            "com.coloros.filemanager": 60
+        }
+    }
+]

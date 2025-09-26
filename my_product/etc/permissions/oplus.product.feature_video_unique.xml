@@ -1,0 +1,6 @@
+<oplus-config>
+    <!-- FEATURE_SURROUND_RECORD_SUPPORT -->
+    <oplus-feature name="oplus.software.video.surround_record_support"/>
+    <!-- FEATURE_WNR_SUPPORT -->
+    <oplus-feature name="oplus.software.video.wnr_support"/>
+</oplus-config>

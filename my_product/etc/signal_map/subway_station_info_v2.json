@@ -1,0 +1,514 @@
+﻿{
+  "version": 0,
+  "city_name_cn": "上海",
+  "city_name_en": "Shanghai",
+  "subway_station": {
+    "station_count": 63,
+    "station_list": [
+      {
+        "station_id": 1,
+        "station_info": [
+          "徐泾东",
+          "East Xujing",
+          "2"
+        ]
+      },
+      {
+        "station_id": 2,
+        "station_info": [
+          "虹桥火车站",
+          "Hongqiao Railway Station",
+          "2"
+        ]
+      },
+      {
+        "station_id": 3,
+        "station_info": [
+          "虹桥2号航站楼",
+          "Hongqiao Airport Terminal 2",
+          "2"
+        ]
+      },
+      {
+        "station_id": 4,
+        "station_info": [
+          "淞虹路",
+          "Songhong Road",
+          "2"
+        ]
+      },
+      {
+        "station_id": 5,
+        "station_info": [
+          "北新泾",
+          "Beixinjing",
+          "2"
+        ]
+      },
+      {
+        "station_id": 6,
+        "station_info": [
+          "威宁路",
+          "Weining Road",
+          "2"
+        ]
+      },
+      {
+        "station_id": 7,
+        "station_info": [
+          "娄山关路",
+          "Loushanguan Road",
+          "2"
+        ]
+      },
+      {
+        "station_id": 8,
+        "station_info": [
+          "中山公园",
+          "Zhongshan Park",
+          "2"
+        ]
+      },
+      {
+        "station_id": 9,
+        "station_info": [
+          "江苏路",
+          "Jiangsu Road",
+          "2"
+        ]
+      },
+      {
+        "station_id": 10,
+        "station_info": [
+          "静安寺",
+          "Jing'an Temple",
+          "2"
+        ]
+      },
+      {
+        "station_id": 11,
+        "station_info": [
+          "南京西路",
+          "West Nanjing Road",
+          "2"
+        ]
+      },
+      {
+        "station_id": 12,
+        "station_info": [
+          "人民广场",
+          "People's Square",
+          "2"
+        ]
+      },
+      {
+        "station_id": 13,
+        "station_info": [
+          "南京东路",
+          "East Nanjing Road",
+          "2"
+        ]
+      },
+      {
+        "station_id": 14,
+        "station_info": [
+          "陆家嘴",
+          "Lujiazui",
+          "2"
+        ]
+      },
+      {
+        "station_id": 15,
+        "station_info": [
+          "东昌路",
+          "Dongchang Road",
+          "2"
+        ]
+      },
+      {
+        "station_id": 16,
+        "station_info": [
+          "世纪大道",
+          "Century Avenue",
+          "2"
+        ]
+      },
+      {
+        "station_id": 17,
+        "station_info": [
+          "上海科技馆",
+          "Shanghai Science And Technology Museum",
+          "2"
+        ]
+      },
+      {
+        "station_id": 18,
+        "station_info": [
+          "世纪公园",
+          "Century Park",
+          "2"
+        ]
+      },
+      {
+        "station_id": 19,
+        "station_info": [
+          "龙阳路",
+          "Longyang Road",
+          "2"
+        ]
+      },
+      {
+        "station_id": 20,
+        "station_info": [
+          "张江高科",
+          "Zhangjiang High Technology Park",
+          "2"
+        ]
+      },
+      {
+        "station_id": 21,
+        "station_info": [
+          "金科路",
+          "Jinke Road",
+          "2"
+        ]
+      },
+      {
+        "station_id": 22,
+        "station_info": [
+          "广兰路",
+          "Guanglan Road",
+          "2"
+        ]
+      },
+      {
+        "station_id": 23,
+        "station_info": [
+          "唐镇",
+          "Tangzhen",
+          "2"
+        ]
+      },
+      {
+        "station_id": 24,
+        "station_info": [
+          "创新中路",
+          "Middle Chuangxin Road",
+          "2"
+        ]
+      },
+      {
+        "station_id": 25,
+        "station_info": [
+          "华夏东路",
+          "East Huaxia Road",
+          "2"
+        ]
+      },
+      {
+        "station_id": 26,
+        "station_info": [
+          "川沙",
+          "Chuansha",
+          "2"
+        ]
+      },
+      {
+        "station_id": 27,
+        "station_info": [
+          "凌空路",
+          "Lingkong Road",
+          "2"
+        ]
+      },
+      {
+        "station_id": 28,
+        "station_info": [
+          "远东大道",
+          "Yuandong Avenue",
+          "2"
+        ]
+      },
+      {
+        "station_id": 29,
+        "station_info": [
+          "海天三路",
+          "Haitiansan Road",
+          "2"
+        ]
+      },
+      {
+        "station_id": 30,
+        "station_info": [
+          "浦东国际机场",
+          "Pudong International Airport  ",
+          "2"
+        ]
+      },
+      {
+        "station_id": 31,
+        "station_info": [
+          "美兰湖",
+          "Meilan Lake",
+          "7"
+        ]
+      },
+      {
+        "station_id": 32,
+        "station_info": [
+          "罗南新村",
+          "Luonan Xincun",
+          "7"
+        ]
+      },
+      {
+        "station_id": 33,
+        "station_info": [
+          "潘广路",
+          "Panguang Road",
+          "7"
+        ]
+      },
+      {
+        "station_id": 34,
+        "station_info": [
+          "刘行",
+          "Liuhang",
+          "7"
+        ]
+      },
+      {
+        "station_id": 35,
+        "station_info": [
+          "顾村公园",
+          "Gucun Park",
+          "7"
+        ]
+      },
+      {
+        "station_id": 36,
+        "station_info": [
+          "祁华路",
+          "Qihua Road",
+          "7"
+        ]
+      },
+      {
+        "station_id": 37,
+        "station_info": [
+          "上海大学",
+          "Shanghai University",
+          "7"
+        ]
+      },
+      {
+        "station_id": 38,
+        "station_info": [
+          "南陈路",
+          "Nanchen Road",
+          "7"
+        ]
+      },
+      {
+        "station_id": 39,
+        "station_info": [
+          "上大路",
+          "Shangda Road",
+          "7"
+        ]
+      },
+      {
+        "station_id": 40,
+        "station_info": [
+          "场中路",
+          "Changzhong Road",
+          "7"
+        ]
+      },
+      {
+        "station_id": 41,
+        "station_info": [
+          "大场镇",
+          "Dachang Town",
+          "7"
+        ]
+      },
+      {
+        "station_id": 42,
+        "station_info": [
+          "行知路",
+          "Xingzhi Road",
+          "7"
+        ]
+      },
+      {
+        "station_id": 43,
+        "station_info": [
+          "大华三路",
+          "Dahuasan Road",
+          "7"
+        ]
+      },
+      {
+        "station_id": 44,
+        "station_info": [
+          "新村路",
+          "Xincun Road",
+          "7"
+        ]
+      },
+      {
+        "station_id": 45,
+        "station_info": [
+          "岚皋路",
+          "Langao Road",
+          "7"
+        ]
+      },
+      {
+        "station_id": 46,
+        "station_info": [
+          "镇坪路",
+          "Zhenping Road",
+          "7"
+        ]
+      },
+      {
+        "station_id": 47,
+        "station_info": [
+          "长寿路",
+          "Changshou Road",
+          "7"
+        ]
+      },
+      {
+        "station_id": 48,
+        "station_info": [
+          "昌平路",
+          "Changping Road",
+          "7"
+        ]
+      },
+      {
+        "station_id": 49,
+        "station_info": [
+          "静安寺",
+          "Jing'an Temple",
+          "7"
+        ]
+      },
+      {
+        "station_id": 50,
+        "station_info": [
+          "常熟路",
+          "Changshu Road",
+          "7"
+        ]
+      },
+      {
+        "station_id": 51,
+        "station_info": [
+          "肇嘉浜路",
+          "Zhaojiabang Road",
+          "7"
+        ]
+      },
+      {
+        "station_id": 52,
+        "station_info": [
+          "东安路",
+          "Dong'an Road",
+          "7"
+        ]
+      },
+      {
+        "station_id": 53,
+        "station_info": [
+          "龙华中路",
+          "Middle Longhua Road",
+          "7"
+        ]
+      },
+      {
+        "station_id": 54,
+        "station_info": [
+          "后滩",
+          "Houtan",
+          "7"
+        ]
+      },
+      {
+        "station_id": 55,
+        "station_info": [
+          "长清路",
+          "Changqing Road",
+          "7"
+        ]
+      },
+      {
+        "station_id": 56,
+        "station_info": [
+          "耀华路",
+          "Yaohua Road",
+          "7"
+        ]
+      },
+      {
+        "station_id": 57,
+        "station_info": [
+          "云台路",
+          "Yuntai Road",
+          "7"
+        ]
+      },
+      {
+        "station_id": 58,
+        "station_info": [
+          "高科西路",
+          "West Gaoke Road",
+          "7"
+        ]
+      },
+      {
+        "station_id": 59,
+        "station_info": [
+          "杨高南路",
+          "South Yanggao Road",
+          "7"
+        ]
+      },
+      {
+        "station_id": 60,
+        "station_info": [
+          "锦绣路",
+          "Jinxiu Road",
+          "7"
+        ]
+      },
+      {
+        "station_id": 61,
+        "station_info": [
+          "芳华路",
+          "Fanghua Road",
+          "7"
+        ]
+      },
+      {
+        "station_id": 62,
+        "station_info": [
+          "龙阳路",
+          "Longyang Road",
+          "7"
+        ]
+      },
+      {
+        "station_id": 63,
+        "station_info": [
+          "花木路",
+          "Huamu Road",
+          "7"
+        ]
+      }
+    ]
+  }
+}

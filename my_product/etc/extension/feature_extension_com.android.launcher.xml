@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <!-- control the current model is a high-end machine -->
+    <app_feature name="com.android.launcher.DEVICE_LEVEL_HIGH" />
+</extend_features>

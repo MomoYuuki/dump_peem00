@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PhoneColors>
+        <!--PhoneColor.name：手机颜色的唯一标识，由项目、手软提供-->
+        <!--ColorDescription：手机颜色描述，描述手机颜色-->
+        <!--ColorDescriptionCN：手机颜色描述（中文），描述手机颜色-->
+        <!--DefaultWallpaper :对应的锁屏壁纸-->
+        <!--DefaultWallpaperLock :对应的桌面壁纸-->
+        <!--ThemeDescriptionCN：主题描述（中文），描述主题名称-->
+        <!--手机颜色唯一标识、手机颜色描述由项目或手软提供，对应主题由桌面主题组根据UI要求配置-->
+        <!--该文件由OS产品中心桌面主题组维护-->
+
+    <PhoneColor name="FF0D0D0D">
+        <ColorDescription>Gloss Black</ColorDescription>
+        <ColorDescriptionCN>镜黑</ColorDescriptionCN>
+        <DefaultWallpaper>product_wallpaper1</DefaultWallpaper>
+        <DefaultWallpaperLock>product_wallpaper1</DefaultWallpaperLock>
+        <ThemeDescriptionCN>浮光掠影</ThemeDescriptionCN>
+    </PhoneColor>
+
+    <PhoneColor name="FF2D4D74">
+        <ColorDescription>Blue</ColorDescription>
+        <ColorDescriptionCN>雾蓝</ColorDescriptionCN>
+        <DefaultWallpaper>product_wallpaper1</DefaultWallpaper>
+        <DefaultWallpaperLock>product_wallpaper1</DefaultWallpaperLock>
+        <ThemeDescriptionCN>浮光掠影</ThemeDescriptionCN>
+    </PhoneColor>
+
+    <PhoneColor name="FFF2F2F2">
+        <ColorDescription>White</ColorDescription>
+        <ColorDescriptionCN>凝白</ColorDescriptionCN>
+        <DefaultWallpaper>product_wallpaper2</DefaultWallpaper>
+        <DefaultWallpaperLock>product_wallpaper2</DefaultWallpaperLock>
+        <ThemeDescriptionCN>和光同尘</ThemeDescriptionCN>
+    </PhoneColor>
+
+    <PhoneColor name="FFE5D9C8">
+        <ColorDescription>Cosmic Mocha</ColorDescription>
+        <ColorDescriptionCN>宇宙摩卡</ColorDescriptionCN>
+        <DefaultWallpaper>product_wallpaper2</DefaultWallpaper>
+        <DefaultWallpaperLock>product_wallpaper2</DefaultWallpaperLock>
+        <ThemeDescriptionCN>和光同尘</ThemeDescriptionCN>
+    </PhoneColor>
+</PhoneColors>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.android.launcher.DEVICE_LEVEL_HIGH"/>
+	<app_feature name="com.android.launcher.folder_content_recommend_disable"/>
+	<app_feature name="com.android.launcher.gc_when_user_present" args="boolean:true"/>
+	<app_feature name="os.carlink.ccc.rke" args="boolean:false"/>
+</extend_features>
+<!-- Timestamp 2023-12-01T18:16:14 #73707 -->

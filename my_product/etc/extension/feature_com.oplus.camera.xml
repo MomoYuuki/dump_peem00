@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <app_feature name="camera.scene.notify.max.target.mem" args="String:8|2250-12|2250"/>
+</extend_features>

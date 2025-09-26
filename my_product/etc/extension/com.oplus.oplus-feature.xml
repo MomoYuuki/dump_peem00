@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oplus-config>
+	<oplus-feature name="oplus.software.activity_preload"/>
+	<oplus-feature name="oplus.software.wlan.net_share"/>
+	<oplus-feature name="oplus.software.support_fluid_entry"/>
+	<oplus-feature name="oplus.software.radio.tcp_syn_timeout_tuning"/>
+	<oplus-feature name="oplus.software.radio.tcp_congest_control"/>
+	<oplus-feature name="oplus.software.radio.data_eval3"/>
+	<oplus-feature name="oplus.software.radio.sido_lte_srv_poor_signal_ngbr_strong_opt"/>
+	<oplus-feature name="oplus.software.radio.qr_recovery"/>
+	<oplus-feature name="oplus.software.radio.wifi_data_control"/>
+	<oplus-feature name="oplus.software.radio.smart_commu"/>
+	<oplus-feature name="oplus.software.radio.game_ims_reg"/>
+	<oplus-feature name="oplus.software.radio.game_backoff_sa"/>
+	<oplus-feature name="oplus.software.radio.nwpower_measurement_frozen_switch_enable"/>
+	<oplus-feature name="oplus.software.radio.ul_priority_policy_one_vs_one"/>
+	<oplus-feature name="oplus.software.radio.cybersense_location_enabled"/>
+	<oplus-feature name="oplus.software.radio.qos_prediction_enabled"/>
+	<oplus-feature name="oplus.software.radio.enable_signal_map"/>
+	<oplus-feature name="oplus.software.wlan.atpc"/>
+	<oplus-feature name="oplus.software.radio.stream_identify"/>
+	<oplus-feature name="oplus.software.fluid_replace_ntf"/>
+	<oplus-feature name="oplus.software.view.spring_over_scroller"/>
+	<oplus-feature name="oplus.software.radio.virtualmodem_cellinfo"/>
+</oplus-config>
+<!-- Timestamp 2024-08-19T15:46:42 #190909 -->

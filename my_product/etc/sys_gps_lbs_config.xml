@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <Android-Version>12</Android-Version>
+    <version>20220726</version>
+
+
+    <!-- config for gnss sv strategy -->
+    <bool ID="2064">true</bool>
+    <string ID="5038">Q,300,4000</string>
+
+    <bool ID="2061">true</bool>
+    <bool ID="2032">true</bool>
+
+    <integer name="config_gpsShowTipsConfig">31</integer>
+
+    <string name="config_gpsShowTipsParams">6,8,4,2,200,250,180,225,2.5,3.5,1.5,2.5,5400,5200,28.0,20.0,8,5,500.0,100.0,0.3,0.5,0.4,-0.3,-0.5,-0.4,-2.0,0,0,0,0,0,0,0,0,0,0,5,3,3,3,3</string>
+
+    <string-array name="config_gpsShowTipsApp">
+        <item>com.baidu.BaiduMap</item>
+        <item>com.autonavi.minimap</item>
+        <item>com.tencent.map</item>
+        <item>com.sdu.didi.gsui</item>
+        <item>com.google.android.apps.maps</item>
+        <item>com.meituan.banma.errand</item>
+        <item>com.sankuai.meituan.dispatch.crowdsource</item>
+        <item>com.sankuai.meituan.dispatch.homebrew</item>
+        <item>me.ele.crowdsource</item>
+        <item>com.dada.mobile.android</item>
+    </string-array>
+
+    <string name="config_gpsShowTipsUrlCn">https://tipsfs.oppomobile.com/uploads/html/2020/05/07/3c6714be-594e-4431-b669-25139df71200.html</string>
+
+</filter-conf>

@@ -1,0 +1,11 @@
+<oplus-config>
+    <oplus-feature name="oplus.software.bt.switchlog" />
+
+    <oplus-feature name="oplus.software.wlan.dual_sta" />
+    <oplus-feature name="oplus.software.wlan.dbs" />
+    <oplus-feature name="oplus.software.wlan.wifi6" />
+<!-- GaoShangxiu@CONNECTIVITY.BT.Audio.Feature.1621909, 2021/10/02,add for support Binuural Record -->
+    <oplus-feature name="oplus.software.bt.binaural_record" />
+<!-- ZhaoXiang@CONNECTIVITY.WIFI.SOFTAP.1644168, 2021/7/3 -->
+    <oplus-feature name="oplus.software.wlan.softap_nss1X1" />
+</oplus-config>
