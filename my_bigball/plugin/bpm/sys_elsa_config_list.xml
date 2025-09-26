@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<filter-conf>
+    <version>2021031500</version>
+    <filter-name>sys_elsa_config_list</filter-name>
+    <isHansConfig>true</isHansConfig>
+
+    <!-- policy -->
+    <switchConfig hansSwitch="true" gmsSwitch="true" statistic="false" chargingFreezerSwitch="true" toastSwitch="true"/>
+    <timeConfig stateChangeCheckTime="30000" fastFreezeTimeout="1500" importantCheckTime="30000" lcdOffCheckTime="30000" lcdOffRepeatTime="60000" nightRepeatTime="30000"/>
+    <abnormalKillConfig abnormalCheckTime="300000" abnormalCheckNum="3"/>
+    <lcdoffConfig fastFreezeCheck="6" fastFreezeRepeatTime="30000" bumpServiceSwitch="true" preventRestoreNetSwitch="false" lcdoffgameCloseNetSwitch="false" lcdonGameCloseNetSwitch="false" heatGameCloseNetSwitch="true" nightFreezeWhiteSwitch="true"/>
+    <trafficConfig enble= "true" repeatTime="5000" speed="10"/>
+    <!-- 3.0 policy -->
+    <timeConfig screenOffPeriodCheckTime="60000" firstCheckTime="30000" secondCheckTime="30000" repeatCheckTime="30000"/>
+    <!-- white list, pkg = {pkgName}, mask = {invisible, visible, sync, job} class = {forcewhite, oppo app, third white}-->
+    <whitePkg pkg="com.google.android.syncadapters.calendar" mask="1000"/>
+    <whitePkg pkg="com.google.android.syncadapters.contacts" mask="1000"/>
+    <whitePkg pkg="com.cttl.testService" mask="1000"/>
+    <whitePkg pkg="com.oppo.batterymetertool" mask="1000"/>
+    <whitePkg pkg="com.GPS2GoogleEarth" mask="1000"/>
+    <whitePkg pkg="com.coloros.soundrecorder" mask="1000"/>
+    <whitePkg pkg="com.oneplus.soundrecorder" mask="1000"/>
+    <whitePkg pkg="com.hiby.music" mask="1000"/>
+    <whitePkg pkg="com.kugou.viper" mask="1000"/>
+
+    <!--oppo app -->
+    <whitePkg pkg="com.nearme.note" mask="0100" class="010"/>
+    <whitePkg pkg="com.coloros.note" mask="0100" class="010"/>
+    <whitePkg pkg="com.oppo.wearable" mask="0100" class="010"/>
+    <whitePkg pkg="com.coloros.screenrecorder" mask="0100" class="010"/>
+    <whitePkg pkg="com.oneplus.screenrecord" mask="0100" class="010"/>
+    <whitePkg pkg="com.nearme.gamecenter" mask="0100" class="010"/>
+    <whitePkg pkg="com.redteamobile.roaming" mask="0100" class="010"/>
+    <whitePkg pkg="com.redteamobile.oppo.roaming" mask="0100" class="010"/>
+    <whitePkg pkg="com.coloros.accegamesdk" mask="0100" class="010"/>
+    <whitePkg pkg="com.coloros.oppopods" mask="0100" class="010"/>
+    <whitePkg pkg="com.oneplus.twspods" mask="0100" class="010"/>
+    <whitePkg pkg="com.coloros.flashnote" mask="0100" class="010"/>
+    <whitePkg pkg="com.coloros.favorite" mask="0100" class="010"/>
+    <whitePkg pkg="com.coloros.colorfilestand" mask="0100" class="010"/>
+    <whitePkg pkg="com.coloros.personalassistant" mask="0100" class="010"/>
+    <whitePkg pkg="com.coloros.securityguard" mask="0100" class="010"/>
+    <whitePkg pkg="com.coloros.digitalwellbeing" mask="0100" class="010"/>
+    <whitePkg pkg="com.coloros.familyguard" mask="0100" class="010"/>
+    <whitePkg pkg="com.coloros.calculator" mask="0100" class="010"/>
+    <whitePkg pkg="com.oneplus.calculator" mask="0100" class="010"/>
+    <whitePkg pkg="com.coloros.gamespaceui" mask="0100" class="010"/>
+    <whitePkg pkg="com.heytap.health" mask="0100" class="010"/>
+    <whitePkg pkg="com.heytap.smarthome" mask="0100" class="010"/>
+    <whitePkg pkg="com.standardar.service" mask="0100" class="010"/>
+    <whitePkg pkg="com.unionpay.tsmservice" mask="0100" class="010"/>
+    <whitePkg pkg="com.heytap.uwbconnect" mask="0100" class="010"/>
+
+    <!--oneplus app -->
+    <whitePkg pkg="com.oneplus.modem.test" mask="0100" class="010"/>
+    <whitePkg pkg="com.oneplus.test.modemmonitor" mask="0100" class="010"/>
+    <whitePkg pkg="com.oneplus.tracetest" mask="0100" class="010"/>
+    <whitePkg pkg="com.oneplus.memzero" mask="0100" class="010"/>
+    <whitePkg pkg="com.oneplus.screentest" mask="0100" class="010"/>
+    <whitePkg pkg="com.oneplus.batterymonitor" mask="0100" class="010"/>
+    <whitePkg pkg="com.oneplus.ApkTestTool" mask="0100" class="010"/>
+    <whitePkg pkg="com.example.cameraautotestlite" mask="0100" class="010"/>
+    <whitePkg pkg="com.oneplus.standbypre" mask="0100" class="010"/>
+    <whitePkg pkg="com.github.uiautomator" mask="0100" class="010"/>
+    <whitePkg pkg="com.oneplus.ctsprepare" mask="0100" class="010"/>
+    <whitePkg pkg="com.oneplus.adbheart.test" mask="0100" class="010"/>
+
+
+
+    <!--third app -->
+    <whitePkg pkg="cn.xuexi.android" mask="0100" class="001"/>
+    <whitePkg pkg="com.baidu.video" mask="0100" class="001"/>
+    <whitePkg pkg="com.coloros.relax" mask="0100" class="001"/>
+    <whitePkg pkg="com.kuaidi.daijia.driver" mask="0100" class="001"/>
+    <whitePkg pkg="com.sdu.didi.gsui" mask="0100" class="001"/>
+    <whitePkg pkg="com.duoduo.vip.taxi" mask="0100" class="001"/>
+    <whitePkg pkg="com.ubercab.driver" mask="0100" class="001"/>
+    <whitePkg pkg="cn.edaijia.android.driverclient" mask="0100" class="001"/>
+    <whitePkg pkg="com.funcity.taxi.driver" mask="0100" class="001"/>
+    <whitePkg pkg="com.hn.client.driver" mask="0100" class="001"/>
+    <whitePkg pkg="com.joyskim.taxis_driver" mask="0100" class="001"/>
+    <whitePkg pkg="com.anyimob.taxi" mask="0100" class="001"/>
+    <whitePkg pkg="com.eastedge.taxidriverforpad" mask="0100" class="001"/>
+    <whitePkg pkg="com.newgame.padtool" mask="0100" class="001"/>
+    <whitePkg pkg="com.sdu.didi.gui" mask="0100" class="001"/>
+    <whitePkg pkg="com.sankuai.meituan.dispatch.homebrew" mask="0100" class="001"/>
+    <whitePkg pkg="com.autonavi.xmgd.navigator" mask="0100" class="001"/>
+    <whitePkg pkg="com.sankuai.meituan.meituanwaimaibusiness" mask="0100" class="001"/>
+    <whitePkg pkg="me.ele.napos" mask="0100" class="001"/>
+    <whitePkg pkg="com.samsung.android.app.watchmanager" mask="0100" class="001"/>
+    <whitePkg pkg="com.xtc.watch" mask="0100" class="001"/>
+    <whitePkg pkg="com.cxyw.suyun.ui" mask="0100" class="001"/>
+    <whitePkg pkg="com.google.android.marvin.talkback" mask="0100" class="001"/>
+    <whitePkg pkg="com.jb.gokeyboard.handwrite.zh" mask="0100" class="001"/>
+    <whitePkg pkg="com.android.email" mask="0100" class="001"/>
+    <whitePkg pkg="com.hp.android.printservice" mask="0100" class="001"/>
+    <whitePkg pkg="com.xunmeng.merchant" mask="0100" class="001"/>
+    <whitePkg pkg="com.lalamove.huolala.driver" mask="0100" class="001"/>
+    <whitePkg pkg="com.sankuai.meituan.merchant" mask="0100" class="001"/>
+    <whitePkg pkg="com.google.android.talk" mask="0100" class="001"/>
+
+
+    <!-- other white pkg (net packet:10000)-->
+    <whitePkg pkg="com.sina.weibo" mask="10000"/>
+    <whitePkg mask="10000" pkg="com.jingdong.app.mall" />
+    <whitePkg pkg="com.tencent.gamehelper.smoba" mask="10000"/>
+
+    <!-- gms -->
+    <gms pkg="com.google.android.gms"/>
+    <gms pkg="com.google.android.gsf"/>
+    <gms pkg="com.google.android.backuptransport"/>
+    <gms pkg="com.google.android.partnersetup"/>
+    <gms pkg="com.android.vending"/>
+
+    <!--appTypeConfig unfreeze special app; key: cnpType(all, net, alarm, sync), value: appType-->
+    <appTypeConfig cpnKey="alarm" appType="3"/>
+    <appTypeConfig cpnKey="net" appType="4"/>
+    <appTypeConfig cpnKey="sync" appType="8"/>
+
+    <appType key="lcdoffRestoreNet" appType="6#11"/>
+
+    <!-- alarm white (pkgName+action) -->
+
+    <!-- alarm key pkg white (key pkgName) -->
+    <alarmKeyPkg keyPkg="clock"/>
+    <alarmKeyPkg keyPkg="alarm"/>
+    <alarmKeyPkg keyPkg="calendar"/>
+    <alarmKeyPkg keyPkg="com.xiasgcfytomgage.MysAlasrm" />
+
+    <!-- fast freezer access list (pkgname) -->
+
+    <!-- alarm key action white (key action) -->
+
+    <!-- activity/service/provider component called white&black (pkgName+cpnName) -->
+    <providerCpnCalled pkg="com.oppo.optvassistant" type="white" cpnName="com.oneplus.optvassistant.provider.DeviceAppProvider"/>
+    <broadcastCpnCalled pkg="all" type="white" action="oppo.intent.action.opluscarlink.INIT_OPLUS_SDK"/>
+
+
+    <!-- broadcast component called white&black (action+pkgName) -->
+
+
+    <!-- component caller white&black (pkgName) -->
+    <serviceCpnCaller pkg="com.heytap.mcs" type="white"/>
+    <serviceCpnCaller pkg="com.android.systemui" type="white"/>
+
+    <!-- lcdoff/lcdon prevent cpn awake (pkg, mask) maks={close_socket, aysnbinder, alarm, sync, job, broadcast, provider, bindservice, startservice, activity} -->
+    <lcdoffPrevent pkg="com.google.android.gms" mask="0111111110"/>
+    <lcdoffPrevent pkg="com.android.vending" mask="0111111110"/>
+    <lcdoffPrevent pkg="com.google.android.partnersetup" mask="0111111110"/>
+    <lcdoffPrevent-version pkg="com.xunmeng.pinduoduo" mask="1111111110" version="PEDM00#PEEM00#LE2110#LE2120#LE2100#PEGM10#PEPM00#PENM00#PEQM00#PEXM00"/>
+    <lcdonPrevent-version pkg="com.xunmeng.pinduoduo" mask="1111111110" version="PEDM00#PEEM00#LE2110#LE2120#LE2100#PEGM10#PEPM00#PENM00#PEQM00#PEXM00"/>
+    <!---airplan white cpn awake (pkg, mask) -->
+
+    <!-- broadcast action black list action={broadcast action} pkg={pkg, all} mask={fastfreeze, lcdon, lcdoff} -->
+    <brdBlack action="android.net.wifi.SCAN_RESULTS" pkg="all" mask="011" />
+    <brdBlack action="android.intent.action.BATTERY_CHANGED" pkg="all" mask="011" />
+    <brdBlack action="android.intent.action.CLOSE_SYSTEM_DIALOGS" pkg="all" mask="011" />
+    <brdBlack action="android.intent.action.PACKAGE_RESTARTED" pkg="all" mask="011" />
+    <brdBlack action="android.intent.action.SCREEN_ON" pkg="all" mask="011" />
+    <brdBlack action="android.intent.action.CONFIGURATION_CHANGED" pkg="all" mask="011" />
+    <brdBlack action="android.media.VOLUME_CHANGED_ACTION" pkg="all" mask="011" />
+    <brdBlack action="android.intent.action.PHONE_STATE" pkg="all" mask="011" />
+    <brdBlack action="android.intent.action.USER_PRESENT" pkg="all" mask="011" />
+    <brdBlack action="com.bytedance.ttnet.config.appconfig.SYNC_MAIN_PROCESS_CONFIG" pkg="all" mask="011" />
+
+
+    <!-- type 1: skip fastfreeze, 2: bumpservice white 3: bumpservice(unbind)black
+            4:LcdoffPreventRestoreNetWhiteList 5:LcdoffGameCloseNetWhiteList 6:LcdonDisableJobBlackList
+			11: kill app-->
+    <configPkg type="1" pkg="com.android.permissioncontroller"/>
+    <configPkg type="1" pkg="com.google.android.permissioncontroller"/>
+    <configPkg type="1" pkg="android"/>
+    <configPkg type="1" pkg="com.android.settings"/>
+    <configPkg type="1" pkg="com.google.android.packageinstaller"/>
+    <configPkg type="3" pkg="com.tencent.qqlive"/>
+    <configPkg type="7" pkg="com.hiby.music"/>
+    <configPkg type="7" pkg="com.kugou.viper"/>
+    <configPkg type="11" pkg="com.tencent.qqlive"/>
+    <configPkg type="11" pkg="com.ss.android.article.lite"/>
+
+    <providerCpnCaller pkg="com.coloros.oshare" type="white"/>
+
+    <!-- async binder white (aidlName+pkgName/code) -->
+    <asyncBinder desc="android.media.IAudioFocusDispatcher" type="pkg" pkg="all"/>
+    <asyncBinder desc="android.media.IAudioPolicyServiceClient" type="pkg" pkg="all"/>
+    <asyncBinder desc="android.media.IAudioFlingerClient" type="pkg" pkg="all"/>
+    <asyncBinder desc="android.service.controls.IControlsProvider" pkg="all" type="pkg" />
+    <asyncBinder desc="android.bluetooth.IBluetoothGattCallback" type="code" method="TRANSACTION_onClientConnectionState"/>
+    <asyncBinder desc="android.bluetooth.IBluetoothGattCallback" type="code" method="TRANSACTION_onConnectionUpdated"/>
+    <asyncBinder desc="android.os.IMessenger" type="pkg" pkg="com.heytap.opluscarlink"/>
+    <asyncBinder desc="android.app.IApplicationThread" type="code" method="TRANSACTION_dumpService"/>
+    <asyncBinder desc="android.app.IApplicationThread" type="code" method="TRANSACTION_dumpHeap"/>
+    <asyncBinder desc="android.app.IApplicationThread" type="code" method="TRANSACTION_dumpActivity"/>
+    <asyncBinder desc="android.app.IApplicationThread" type="code" method="TRANSACTION_dumpMemInfo"/>
+    <asyncBinder desc="android.app.IApplicationThread" type="code" method="TRANSACTION_dumpMemInfoProto"/>
+    <!-- async binder black (aidlName+pkgName/code) -->
+    <asyncBinderBlack desc="com.android.internal.telephony.IPhoneStateListener" type="pkg" pkg="com.tencent.mm"/>
+    <asyncBinderBlack desc="com.android.internal.telephony.IPhoneStateListener" type="pkg" pkg="com.tencent.mobileqq"/>
+
+    <asyncBinderBlack desc="android.media.IAudioPolicyServiceClient" type="pkg" pkg="com.xunmeng.pinduoduo#com.ss.android.article.lite#com.ss.android.article.video#com.ss.android.ugc.aweme"/>
+    <asyncBinderBlack desc="android.media.IAudioPolicyServiceClient" type="pkg" pkg="com.smile.gifmaker#com.baidu.searchbox#com.autonavi.minimap#com.taobao.taobao#com.UCMobile#com.jifen.qukan"/>
+    <asyncBinderBlack desc="android.media.IAudioFlingerClient" type="pkg" pkg="com.xunmeng.pinduoduo#com.ss.android.article.lite#com.ss.android.article.video#com.ss.android.ugc.aweme"/>
+    <asyncBinderBlack desc="android.media.IAudioFlingerClient" type="pkg" pkg="com.smile.gifmaker#com.baidu.searchbox#com.autonavi.minimap#com.taobao.taobao#com.UCMobile#com.jifen.qukan"/>
+
+    <asyncBinderCallerWhite desc="android.os.IMessenger" pkg="com.heytap.opluscarlink"/>
+
+    <!-- broadcast pending (action) -->
+    <broadcastPending action="android.intent.action.TIME_TICK"/>
+    <broadcastPending action="android.intent.action.BATTERY_CHANGED"/>
+    <broadcastPending action="android.intent.action.ANY_DATA_STATE"/>
+
+    <cpuCtlWhiteList pkg="com.coloros.screenrecorder" />
+    <cpuCtlWhiteList pkg="com.tencent.mm" />
+    <cpuCtlRus shortCommCpuRateCtl="50" longCommCpuRateCtl="2.5" shortSysCpuRateCtl="200" longSysCpuRateCtl="30" shortCommCpuRateKill="80" longCommCpuRateKill ="2" collectCpuInfoCycle="120000" cpuCollectEnable="true"/>
+</filter-conf>

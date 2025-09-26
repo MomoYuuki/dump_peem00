@@ -1,0 +1,4 @@
+<wallet-config>
+    <!-- WangWei@ANDROID.INPUT, 2020/07/022, Add for wallet -->
+	<item package="com.finshell.wallet" action="finshell.wallet.intent.action.OPEN" uri="content://finshell.wallet.quickstart.flag.provider.open/CARD_BAG_FLAG" extras="" />
+</wallet-config>

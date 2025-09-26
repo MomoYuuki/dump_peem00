@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <version>20230515</version>
+    <core_app pkg="com.google.android.gms" />
+    <disable_app pkg="com.google.android.gms" />
+    <enable_component pkg="com.google.android.gms.accountsettings.mg.ui.main.MainActivity" />
+    <switch value="disable" />
+    <whitelist_app pkg="com.android.vending" />
+    <whitelist_app pkg="com.google.android.apps.youtube.music" />
+    <whitelist_app pkg="com.google.android.apps.docs" />
+    <whitelist_app pkg="com.google.android.play.games" />
+    <whitelist_app pkg="com.google.android.apps.photos" />
+    <whitelist_app pkg="com.google.android.apps.subscriptions.red" />
+    <whitelist_app pkg="com.instagram.android" />
+    <whitelist_app pkg="com.facebook.katana" />
+    <whitelist_app pkg="com.twitter.android" />
+    <whitelist_app pkg="com.grabtaxi.passenger" />
+    <whitelist_app pkg="org.telegram.messenger" />
+    <whitelist_app pkg="com.whatsapp" />
+</config>

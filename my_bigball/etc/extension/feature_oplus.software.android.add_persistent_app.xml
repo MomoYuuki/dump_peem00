@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extend_features>
+	<app_feature name="athena.kill.general.whitelist.carrier" args="StringList:systemhelper">
+		<StringList name="systemhelper" args="com.mobiletools.systemhelper"/>
+	</app_feature>
+</extend_features>

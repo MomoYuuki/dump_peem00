@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <!-- indicate if the device is export -->
+    <app_feature name="com.oplus.battery.one_key_power_save" args="boolean:false"/>
+    <!-- enable hidden api in china region -->
+    <app_feature name="com.oplus.battery.enable_hidden_api_collect" args="boolean:true"/>
+    <!-- enable abnormal function in china region -->
+    <app_feature name="com.oplus.battery.support_abnormal" args="boolean:true"/>
+</extend_features>
