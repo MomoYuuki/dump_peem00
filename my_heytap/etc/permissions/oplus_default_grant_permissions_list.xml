@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<packages>
+	<default-grant-permissions package="com.heytap.quicksearchbox">
+		<permission name="android.permission.READ_MEDIA_IMAGES"/>
+		<permission name="android.permission.READ_MEDIA_VIDEO"/>
+		<permission name="android.permission.READ_MEDIA_AUDIO"/>
+	</default-grant-permissions>
+	<default-grant-permissions package="com.oplus.statistics.rom">
+		<permission name="android.permission.ACCESS_COARSE_LOCATION"/>
+		<permission name="android.permission.ACCESS_FINE_LOCATION"/>
+		<permission name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+	</default-grant-permissions>
+	<default-grant-permissions package="com.oplus.games" sha256-cert-digest="B0A9BBFC05EEE5E7D0A2C97C030586E15BB3301152078F54473BB82DF6D8C818">
+		<permission name="android.permission.BLUETOOTH_CONNECT"/>
+	</default-grant-permissions>
+	<default-grant-permissions package="com.coloros.assistantscreen">
+		<permission name="android.permission.READ_MEDIA_IMAGES"/>
+	</default-grant-permissions>
+</packages>
+<!-- Timestamp 2024-11-29T23:29:22 #280266 -->
