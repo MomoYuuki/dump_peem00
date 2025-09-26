@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<default-app>
+    <item name="com.android.launcher" role="home" category="force" />
+    <item name="com.heytap.market" role="other" category="force" />
+    <item name="com.android.packageinstaller" role="other" category="force" />
+    <item name="com.oplus.wirelesssettings" role="other" category="force" />
+    <item name="com.android.launcher" role="home" category="unforced" />
+    <item name="com.android.contacts" role="dialer" category="unforced" />
+    <item name="com.heytap.browser" role="browser" category="unforced" />
+    <item name="com.coloros.gallery3d" role="gallery" category="unforced" />
+    <item name="com.coloros.video" role="music" category="unforced" />
+    <item name="com.heytap.music" role="music" category="unforced" />
+    <item name="com.coloros.video" role="video" category="unforced" />
+    <item name="com.heytap.yoli" role="video" category="unforced" />
+    <item name="com.heytap.market" role="other" category="unforced" />
+    <item name="com.android.packageinstaller" role="other" category="unforced" />
+    <item name="com.oplus.wirelesssettings" role="other" category="unforced" />
+    <item name="com.oplus.account" role="oaccount" category="uninstallable" />
+    <item name="com.oplus.member" role="oaccount" category="uninstallable" />
+    <item name="com.heytap.member" role="oaccount" category="uninstallable" />
+    <item name="com.oneplus.member" role="oaccount" category="uninstallable" />
+    <item name="com.oplus.themestore" role="otheme" category="uninstallable" />
+    <item name="com.heytap.themestore" role="otheme" category="uninstallable" />
+    <item name="com.heytap.tas" role="owallet" category="uninstallable" />
+    <item name="com.finshell.wallet" role="owallet" category="uninstallable" />
+</default-app>

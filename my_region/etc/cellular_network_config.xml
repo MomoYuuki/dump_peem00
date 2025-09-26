@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<celluerNetworkConfig>
+    <version>2024052010</version>
+    <CHECK_NETWORK_SERVER_01>http://www.google.cn/generate_204</CHECK_NETWORK_SERVER_01>
+    <CHECK_NETWORK_SERVER_02>http://developers.google.cn/generate_204</CHECK_NETWORK_SERVER_02>
+    <CHECK_NETWORK_SERVER_03>http://www.googleapis.cn/generate_204</CHECK_NETWORK_SERVER_03>
+    <CHECK_NETWORK_SERVER_04>http://www.sina.com.cn/generate_204</CHECK_NETWORK_SERVER_04>
+    <CHECK_NETWORK_SERVER_05>http://conn-service-cn-05.allawntech.com/generate204</CHECK_NETWORK_SERVER_05>
+    <CHECK_NETWORK_SERVER_06>http://conn-service-cn-06.allawntech.com/generate204</CHECK_NETWORK_SERVER_06>
+    <CHECK_NETWORK_SERVER_07>http://conn-service-cn-07.allawntech.com/generate204</CHECK_NETWORK_SERVER_07>
+    <CHECK_NETWORK_SERVER_08>http://conn-service-cn-08.allawntech.com/generate204</CHECK_NETWORK_SERVER_08>
+    <DEFAULT_DNS_SERVER>114.114.114.114</DEFAULT_DNS_SERVER>
+    <DNS_INQUIRE_PRIORITY_PKGS>cea.cofcoko.com;api.efivestar.com;zjxl.cpic.com.cn;newcxop.cpic.com.cn;smz.crm.189.cn;cqsmz.crm.189.cn;hasmz.crm.189.cn;hnsmz.crm.189.cn;</DNS_INQUIRE_PRIORITY_PKGS>
+    <DNS_INQUIRE_PRIORITY_VERSION>1</DNS_INQUIRE_PRIORITY_VERSION>
+    <NO_MONEY_URL>http://a.189.cn/JJHBp7;http://a.189.cn/JebWcV;http://touch.10086.cn/i/mobile/greentip.html</NO_MONEY_URL>
+</celluerNetworkConfig>

@@ -1,0 +1,184 @@
+<filter-conf>
+<version>20210803</version>
+<isOpen>1</isOpen>
+    <filter-name>safe_boot_whitelist</filter-name>
+    <p att="com.tencent.mm"/>
+    <p att="com.tencent.mobileqq"/>
+    <p att="cn.com.fetion"/>
+    <p att="com.alibaba.mobileim"/>
+    <p att="jp.naver.line.android"/>
+    <p att="com.asiainfo.android"/>
+    <p att="com.whatsapp"/>
+    <p att="com.sonyericsson.extras.smartwirelessheadsetpro"/>
+    <p att="com.google.android.voicesearch"/>
+    <p att="com.xtc.watch"/>
+    <p att="com.android.cts.net"/>
+    <p att="com.android.cts.stub"/>
+    <p att="com.android.cts.verifier"/>
+    <p att="com.android.cts.permissiondeclareappcompat"/>
+    <p att="com.rsupport.rs.activity.oneplus"/>
+    <p att="com.rsupport.rs.activity.oppo"/>
+    <p att="com.rsupport.rs.activity.oppoglobal"/>
+    <p att="com.rsupport.rsperm.ao.a1th"/>
+    <p att="com.rsupport.rs.activity.rsupport"/>
+    <p att="com.rsupport.mvagent"/>
+    <p att="com.rsupport.mvagent1"/>
+    <p att="rsupport.AndroidViewer"/>
+    <p att="com.coloros.safe.service.framework"/>
+    <p att="com.nearme.gamecenter"/>
+    <p att="com.heytap.gamecenter"/>
+    <p att="com.toprand.n5"/>
+    <p att="com.google.android.marvin.talkback"/>
+    <p att="com.redteamobile.roaming"/>
+    <p att="com.coloros.oppopods"/>
+    <p att="com.oplus.melody"/>
+    <p att="com.alibaba.android.rimet"/>
+    <p att="com.coloros.wallet"/>
+    <p att="com.finshell.wallet"/>
+    <p att="com.tencent.tim"/>
+    <p att="com.netease.mobimail"/>
+    <p att="com.tencent.wework"/>
+    <p att="com.redteamobile.oppo.roaming"/>
+    <p att="com.coloros.digitalwellbeing"/>
+    <p att="com.coloros.personalassistant"/>
+    <p att="com.coloros.securityguard"/>
+    <p att="com.coloros.apprecover"/>
+    <p att="com.coloros.familyguard"/>
+    <p att="com.xunmeng.im"/>
+    <p att="com.aimi.knock"/>
+	
+	<p att="com.facebook.katana"/>
+	<p att="com.facebook.mlite"/>
+	<p att="org.telegram.messenger"/>
+	<p att="com.imo.android.imoim"/>
+	<p att="com.skype.raider"/>
+	<p att="com.viber.voip"/>
+	<p att="com.kakao.talk"/>
+	<p att="com.facebook.orca"/>
+	<p att="com.google.android.talk"/>
+	<p att="com.turkcell.bip"/>
+	<p att="com.whatsapp.w4b"/>
+	<p att="com.bbm"/>
+	<p att="com.zing.zalo"/>
+	<p att="com.imo.android.imoimbeta"/>
+	<p att="org.thunderdog.challegram"/>
+	<p att="com.vkontakte.android"/>
+	<p att="im.thebot.messenger"/>
+	<p att="mobi.skred.app"/>
+	<p att="com.imo.android.imoimlite"/>
+	<p att="com.michatapp.im"/>
+	<p att="kik.android"/>
+	<p att="com.discord"/>
+	<p att="com.snapchat.android"/>
+	<p att="com.instagram.android"/>
+	<p att="com.facebook.lite"/>
+	<p att="com.pinterest"/>
+	<p att="com.linkedin.android"/>
+	<p att="com.perm.kate_new_6"/>
+	<p att="ru.ok.android"/>
+	<p att="sg.omi"/>
+	<p att="th.cyberapp.beechat"/>
+	<p att="com.tumblr"/>
+	<p att="com.samsung.android.geargplugin"/>
+	<p att="cn.xuexi.android"/>
+    <p att="com.xunmeng.pinduoduo"/>
+    <p att="com.market.heydemo"/>
+	<!-- add for 11.3 -->
+	<p att="com.oplus.apprecover"/>
+	<p att="com.coloros.backuprestore"/>
+	<p att="com.oplus.oscenter"/>
+	<p att="com.heytap.wearable.retaildemo.phone"/>
+	<p att="com.oplus.earbuds.retaildemo"/>
+    <p att="com.coloros.calendar"/>
+    <p att="com.coloros.alarmclock"/>
+	
+    <nodialog_switch>true</nodialog_switch>
+    <nodialog>test.test</nodialog>
+    <whitelist>com.oppo.mp_battery_autotest</whitelist>
+    <whitelist>com.oppo.fpstest</whitelist>
+    <whitelist>com.oppo.autotest.agingautotesttool</whitelist>
+    <whitelist>com.oppo.PhenixTestServer</whitelist>
+    <whitelist>com.oppo.networkautotest</whitelist>
+    <whitelist>com.tencent.mm</whitelist>
+    <whitelist>com.oppo.community</whitelist>
+    <whitelist>com.nearme.note</whitelist>
+    <whitelist>com.tencent.tvoem</whitelist>
+    <whitelist>com.oppo.ubeauty</whitelist>
+    <whitelist>com.example.hellojni</whitelist>
+    <whitelist>com.android.email</whitelist>
+    <whitelist>com.taobao.taobao</whitelist>
+    <whitelist>com.alibaba.android.rimet</whitelist>
+    <max_allow_count value="5"/>
+    <autosync>com.kingsoft.email</autosync>
+    <autosync>com.netease.mail</autosync>
+    <autosync>com.android.email</autosync>
+    <autosync>com.google.android.gms</autosync>
+    <autosync>com.tencent.androidqqmail</autosync>
+    <autosync>com.tencent.qqpim</autosync>
+    <autosync>com.tencent.pb</autosync>
+    <autosync>com.smartisan.email</autosync>
+    <autosync>com.google.android.syncadapters.calendar</autosync>
+    <autosync>com.google.android.syncadapters.contacts</autosync>
+    <autosync>com.google.android.email</autosync>
+    <autosync>com.google.android.gm</autosync>
+    <actionlist>qualcomm.intent.action.WIFI_DISPLAY_AUDIO</actionlist>
+    <actionlist>android.provider.Telephony.WAP_PUSH_DELIVER</actionlist>
+    <actionlist>android.provider.Telephony.SMS_DELIVER</actionlist>
+    <actionlist>android.content.cts.ContextWrapperTest.STICKY_BROADCAST_RESULT</actionlist>
+    <actionlist>android.intent.action.ANALOG_AUDIO_DOCK_PLUG</actionlist>
+    <actionlist>android.media.AUDIO_BECOMING_NOISY</actionlist>
+    <actionlist>android.media.VOLUME_CHANGED_ACTION</actionlist>
+    <actionlist>android.appwidget.action.APPWIDGET_ENABLED</actionlist>
+    <hideWhite auto="1" associate="1" pkg="com.redteamobile.roaming"/>
+    <hideWhite auto="1" associate="1" pkg="com.redteamobile.oppo.roaming"/>
+    <hideWhite auto="1" associate="1" pkg="com.nearme.gamecenter"/>
+    <hideWhite auto="1" associate="1" pkg="com.heytap.gamecenter"/>
+    <hideWhite auto="1" associate="1" pkg="com.nearme.note"/>
+    <hideWhite auto="1" associate="1" pkg="com.coloros.note"/>
+    <hideWhite auto="0" associate="1" pkg="com.coloros.screenrecorder"/>
+    <hideWhite auto="0" associate="1" pkg="com.oppo.community"/>
+    <hideWhite auto="1" associate="1" pkg="com.coloros.oppopods"/>
+    <hideWhite auto="1" associate="1" pkg="com.oplus.melody"/>
+    <hideWhite auto="0" associate="1" pkg="com.coloros.flashnote"/>
+    <hideWhite auto="0" associate="1" pkg="com.coloros.favorite"/>
+    <hideWhite auto="0" associate="1" pkg="com.coloros.colorfilestand"/>
+    <hideWhite auto="1" associate="1" pkg="com.coloros.wallet"/>
+    <hideWhite auto="0" associate="1" pkg="com.oppo.reader"/>
+    <hideWhite auto="0" associate="1" pkg="com.heytap.reader"/>
+    <hideWhite auto="0" associate="1" pkg="com.oppo.book"/>
+    <hideWhite auto="0" associate="1" pkg="com.heytap.book"/>
+    <hideWhite auto="0" associate="1" pkg="com.oneplus.market"/>
+    <hideWhite auto="0" associate="1" pkg="com.coloros.lives"/>
+    <hideWhite auto="0" associate="1" pkg="com.oppo.news"/>
+    <hideWhite auto="0" associate="1" pkg="com.standardar.service"/>
+    <hideWhite auto="1" associate="1" pkg="com.coloros.digitalwellbeing"/>
+    <hideWhite auto="0" associate="1" pkg="com.oppo.ohome"/>
+    <hideWhite auto="0" associate="1" pkg="com.heytap.smarthome"/>
+    <hideWhite auto="1" associate="1" pkg="com.coloros.personalassistant"/>
+    <hideWhite auto="1" associate="1" pkg="com.coloros.securityguard"/>
+    <hideWhite auto="0" associate="1" pkg="com.coloros.soundrecorder"/>
+    <hideWhite auto="1" associate="1" pkg="com.coloros.apprecover"/>
+    <hideWhite auto="1" associate="1" pkg="com.coloros.familyguard"/>
+    <hideWhite auto="0" associate="1" pkg="com.coloros.yoli"/>
+    <hideWhite auto="0" associate="1" pkg="com.heytap.yoli"/>
+    <hideWhite auto="0" associate="1" pkg="com.oppo.im"/>
+	<hideWhite auto="0" associate="1" pkg="com.teamtalk.im"/>
+    <hideWhite auto="0" associate="1" pkg="com.coloros.gamespaceui"/>
+    <hideWhite auto="0" associate="1" pkg="com.oppo.store"/>
+    <hideWhite auto="0" associate="1" pkg="com.coloros.gamedock"/>
+    <hideWhite auto="1" associate="0" pkg="com.coloros.shortcuts"/>
+    <hideWhite auto="1" associate="1" pkg="com.heytap.health"/>
+	<hideWhite auto="0" associate="1" pkg="com.nearme.play"/>
+	<hideWhite auto="1" associate="0" pkg="com.android.email"/>
+	<hideWhite auto="0" associate="1" pkg="com.heytap.xgame"/>
+	<hideWhite auto="0" associate="1" pkg="com.coloros.videoeditor"/>
+	<hideWhite auto="0" associate="1" pkg="com.heytap.opluscarlink"/>
+	<hideWhite auto="0" associate="1" pkg="com.oplus.aod"/>
+	<!-- add for 11.3 -->
+	<hideWhite auto="0" associate="1" pkg="com.oplus.games"/>
+	<hideWhite auto="1" associate="1" pkg="com.oplus.apprecover"/>
+    <hideWhite auto="1" associate="1" pkg="com.oneplus.twspods"/>
+    <hideWhite auto="0" associate="1" pkg="com.oneplus.screenrecord"/>
+    <hideWhite auto="0" associate="1" pkg="com.oneplus.soundrecorder"/>
+    <hideWhite auto="1" associate="0" pkg="com.oneplus.brickmode"/>
+</filter-conf>

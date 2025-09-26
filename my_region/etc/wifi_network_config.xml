@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wifiNetworkConfig>
+    <version>2021090711</version>
+    <NETWORK_PUBLIC_HTTPS_SERVERS_URL>https://m.baidu.com,https://sina.cn,https://m.toutiao.com</NETWORK_PUBLIC_HTTPS_SERVERS_URL>
+    <NETWORK_FALLBACK_HTTP_SERVERS_URL>http://www.google.cn/generate_204,http://developers.google.cn/generate_204</NETWORK_FALLBACK_HTTP_SERVERS_URL>
+    <OPLUS_WIFI_ASSISTANT_NETSERVER>conn-service-cn-03.allawntech.com,conn-service-cn-04.allawntech.com,conn-service-cn-05.allawntech.com</OPLUS_WIFI_ASSISTANT_NETSERVER>
+    <OPLUS_WIFI_NETCONFIG_IPV6_SERVER>conn-service-cn-07.allawntech.com,conn-service-cn-08.allawntech.com</OPLUS_WIFI_NETCONFIG_IPV6_SERVER>
+    <NETWORK_SPECIAL_REDIRECT_URL>360.cn</NETWORK_SPECIAL_REDIRECT_URL>
+    <NETWORK_DEFAULT_DNS>114.114.114.114</NETWORK_DEFAULT_DNS>
+    <NETWORK_BACKUP_DNS>180.76.76.76,223.5.5.5</NETWORK_BACKUP_DNS>
+    <NETWORK_BACKUP_DNS_EXP>8.8.8.8,208.67.222.222</NETWORK_BACKUP_DNS_EXP>
+    <HOMEAP_REDIRECT_URL>miwifi.com/diagnosis/index.html</HOMEAP_REDIRECT_URL>
+</wifiNetworkConfig>
