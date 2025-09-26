@@ -1,0 +1,9 @@
+//my_region/O/etc/extension/sys_minigame_config.json 1
+//my_region/P/etc/extension/sys_minigame_config.json 2
+//my_region/etc/extension/com.oplus.app-features.xml 5-6
+//my_region/etc/oplus_carrier_config.xml 8
+//my_region/etc/startup/cdo_game_apps_config_list.xml 9-10
+//my_region/etc/startup/safe_boot_whitelist.xml 11
+//my_region/etc/startup/sys_startup_v3_config_list.xml 12-18
+//my_region/etc/startup/sys_startupmanager_config_list.xml 19-23
+//my_region/global/oplus_carrier_list.xml 170-174
