@@ -1,0 +1,57 @@
+// @file sns_ois_cal.proto
+//
+// Defines the API for ois system.
+//
+// Copyright (c) 2019 OPPO, Inc.
+// All Rights Reserved.
+// Confidential and Proprietary - OPPO, Inc.
+
+syntax = "proto2";
+import "nanopb.proto";
+
+// Message IDs for ois system
+enum sns_ois_system_sm7325_msgid {
+  option (nanopb_enumopt).long_names = false;
+
+  SNS_OIS_SYSTEM_MSGID_START = 524;
+
+  SNS_OIS_SYSTEM_MSGID_CONFIG = 525;
+
+  SNS_OIS_SYSTEM_MSGID_EXT = 526;
+
+  SNS_OIS_SYSTEM_EVENTS = 1025;
+}
+
+message sns_oisparams_sm7325_config
+{
+  required int32 id                 = 1;
+  required int32 mode               = 2;
+  required int32 posture            = 3;
+  required int32 af_fb              = 4;
+  required int32 ois_gain_x         = 5;
+  required int32 ois_gain_y         = 6;
+  required int32 ois_delay_x        = 7;
+  required int32 ois_delay_y        = 8;
+  required int32 gyro_offset_x      = 9;
+  required int32 gyro_offset_y      = 10;
+  required int32 ois_ctl_rate       = 11;
+  required int32 sample_rate        = 12;
+  required int32 ois_algo_vendor    = 13;
+  required int32 ois_gyro_direction = 14;
+  required int32 pulse_enable       = 15;
+  required int32 exp_time           = 16;
+  required int32 m_sth              = 17;
+  required int32 s_sth              = 18;
+  required int32 t_sth              = 19;
+  required int32 default_sth        = 20;
+  required int32 use_ocs            = 21;
+  required int32 dol_num            = 22;
+  required int32 is_enable_parklens = 23;
+  required int32 reset_step         = 24;
+}
+
+message sns_ois_system_sm7325_events
+{
+  repeated float data3g2h = 1;
+}
+
