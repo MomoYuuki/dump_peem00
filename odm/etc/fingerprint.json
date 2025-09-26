@@ -1,0 +1,24 @@
+[
+  {
+        "project":"20031",
+        "name":"default",
+        "product":"PEEM00",
+        "device":"OP4E3F",
+        "model":"PEEM00",
+        "first_api_level" : "30",
+        "manufacturer": "OPPO",
+        "brand": "OPPO",
+        "emer_base_oses":[
+            {
+                "13":"OPPO/PEEM00/OP4E3F:13/TP1A.220624.014/R.202209151153:user/release-keys",
+                "14":"OPPO/PEEM00/OP4E3F:14/UP1A.230620.001/R.13523c2-10-58d1b:user/release-keys"
+            }
+        ],
+        "base_oses": [
+            {
+                "13":"OPPO/PEEM00/OP4E3F:13/TP1A.220624.014/R.202209151153:user/release-keys",
+                "14":"OPPO/PEEM00/OP4E3F:14/UP1A.230620.001/R.13523c2-10-58d1b:user/release-keys"
+            }
+        ]
+  }
+]

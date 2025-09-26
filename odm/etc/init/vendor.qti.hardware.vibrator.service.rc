@@ -1,0 +1,19 @@
+#ifdef OPLUS_FEATURE_LMVIBRATOR
+#Zhanyu.Zhuang@BSP.Vibrator, 2023/08/14, move qti vibrator service to odm
+on late-fs
+    chmod 0666 /dev/richtap_haptic
+service vendor.qti.vibrator /odm/bin/hw/vendor.qti.hardware.vibrator.service
+    class hal
+    user system
+    group system input
+    setenv RICHTAP_DEVICE_PATH /dev/richtap_haptic
+    setenv ENV_RICHTAP_CONFIG_PATH /odm/etc/aac_richtap.config
+
+on property:sys.boot_completed=1
+    setprop vendor.haptic.calibrate.done 1
+#else
+#service vendor.qti.vibrator /vendor/bin/hw/vendor.qti.hardware.vibrator.service
+#   class hal
+#   user system
+#   group system input
+#endif /*OPLUS_FEATURE_LMVIBRATOR*/
